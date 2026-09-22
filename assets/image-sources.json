@@ -1,0 +1,35 @@
+{
+  "retrieved": "2026-09-22",
+  "images": [
+    {
+      "file": "assets/photos/spur-pair.webp",
+      "source": "https://img-spur.hpplus.jp/article/parts/image/99/990bc78a-b4a1-45a0-9790-a4aef868424e-1200x1535.jpg",
+      "bytes": 193338,
+      "sha256": "f1512e45e00fab58409e3307811b953f67414b187dd0f0d3ef016f8db398d921"
+    },
+    {
+      "file": "assets/photos/valentino-ambassadors.jpg",
+      "source": "https://prcdn.freetls.fastly.net/release_image/101366/257/101366-257-70b43c79e61fcba23da449c5b3d3194c-1080x1350.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "bytes": 297740,
+      "sha256": "88c1b91363ba24252f9ba1d2641721a4dabaab1cf30b686fca97537bc65ac5c6"
+    },
+    {
+      "file": "assets/photos/valentino-appearance.jpg",
+      "source": "https://prcdn.freetls.fastly.net/release_image/101366/280/101366-280-b383ca8180db81920625a3111e2fa552-1801x2700.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "bytes": 140696,
+      "sha256": "31f312715303085b0d7d54c7986495655686d5624ccbdc39cf78d9a3325328df"
+    },
+    {
+      "file": "assets/photos/spur-liz.webp",
+      "source": "https://img-spur.hpplus.jp/article/parts/image/35/35412152-43a5-4025-93e5-ca4aa16a211a-1200x1535.jpg",
+      "bytes": 89936,
+      "sha256": "3c2db2c18740f068aadb0acfb843af41ca8948af755d3dcad6f6f54df2691ab6"
+    },
+    {
+      "file": "assets/photos/spur-rei.webp",
+      "source": "https://img-spur.hpplus.jp/article/parts/image/77/7713f726-cde5-4506-989b-60aa7f3124b7-1200x1535.jpg",
+      "bytes": 48314,
+      "sha256": "a09aa7bacf40e0f637742040ded53608fd7333aa42431858605fe915516f594e"
+    }
+  ]
+}

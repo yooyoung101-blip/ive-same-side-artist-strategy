@@ -1,0 +1,3248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAME SIDE - IVE LIZ // REI Unit IP Proposal</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="assets/photos/valentino-ambassadors.jpg" fetchpriority="high" />
+  <meta name="author" content="YOOYOUNG" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="application-name" content="SAME SIDE" />
+  <meta name="apple-mobile-web-app-title" content="SAME SIDE" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta
+    name="description"
+    content="Artist strategy portfolio proposing SAME SIDE, an original LIZ x REI unit IP for IVE."
+  />
+  <meta property="og:title" content="SAME SIDE - IVE LIZ // REI Unit IP Proposal" />
+  <meta
+    property="og:description"
+    content="A Starship artist strategy portfolio proposing SAME SIDE as a concert-first LIZ x REI unit IP."
+  />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://yooyoung101-blip.github.io/ive-same-side-artist-strategy/" />
+  <meta property="og:url" content="https://yooyoung101-blip.github.io/ive-same-side-artist-strategy/" />
+  <meta property="og:image" content="https://yooyoung101-blip.github.io/ive-same-side-artist-strategy/assets/photos/valentino-ambassadors.jpg" />
+  <meta property="og:image:alt" content="LIZ and REI in the Maison Valentino ambassador portrait" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://yooyoung101-blip.github.io/ive-same-side-artist-strategy/assets/photos/valentino-ambassadors.jpg" />
+  <meta name="twitter:title" content="SAME SIDE - IVE LIZ // REI Unit IP Proposal" />
+  <meta
+    name="twitter:description"
+    content="Already a duo. Not yet an original unit."
+  />
+  <style>
+    :root {
+      --bone: #e9e3d8;
+      --ink: #111111;
+      --rose: #b98b92;
+      --silver: #a7a9ac;
+      --paper: #f4efe7;
+      --muted: rgba(17, 17, 17, 0.58);
+      --line: rgba(17, 17, 17, 0.16);
+      --ease: cubic-bezier(0.19, 1, 0.22, 1);
+      font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 0;
+    }
+
+    body {
+      margin: 0;
+      background:
+        linear-gradient(90deg, rgba(17, 17, 17, 0.035) 1px, transparent 1px) 0 0 / 8.333vw 100%,
+        var(--paper);
+      color: var(--ink);
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .topbar {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      padding: 0 clamp(18px, 3vw, 42px);
+      mix-blend-mode: difference;
+      color: #fff;
+      pointer-events: none;
+    }
+
+    .topbar a,
+    .topbar button {
+      pointer-events: auto;
+    }
+
+    .brandmark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .slashes {
+      display: inline-grid;
+      grid-template-columns: 4px 4px;
+      gap: 4px;
+      width: 12px;
+      height: 24px;
+      transform: skewX(-14deg);
+    }
+
+    .slashes::before,
+    .slashes::after {
+      content: "";
+      background: currentColor;
+    }
+
+    .nav {
+      display: flex;
+      gap: 18px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .source-toggle {
+      border: 1px solid currentColor;
+      border-radius: 0;
+      padding: 8px 12px;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    main {
+      overflow-x: clip;
+    }
+
+    .scene {
+      position: relative;
+      min-height: 100svh;
+      padding: clamp(88px, 10vw, 140px) clamp(20px, 4vw, 72px);
+      display: grid;
+      align-items: center;
+      isolation: isolate;
+      scroll-margin-top: 0;
+    }
+
+    .scene.short {
+      min-height: 78svh;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .kicker {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.5;
+      max-width: 720px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .display {
+      font-size: 164px;
+      line-height: 0.82;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 112px;
+      line-height: 0.9;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .subheadline {
+      font-size: 72px;
+      line-height: 0.95;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .copy-xl {
+      font-size: 58px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .copy-l {
+      font-size: 38px;
+      line-height: 1.02;
+      font-weight: 850;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .copy-m {
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.45;
+    }
+
+    .hero {
+      padding: 0;
+      background: var(--ink);
+      color: var(--bone);
+      min-height: 100svh;
+      grid-template-rows: 1fr;
+    }
+
+    .hero-visual {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      opacity: 1;
+    }
+
+    .hero-panel {
+      position: relative;
+      overflow: hidden;
+      background: var(--ink);
+    }
+
+    .image-backed {
+      position: relative;
+      background-size: var(--bg-size, cover);
+      background-position: var(--bg-position, center);
+      background-repeat: no-repeat;
+    }
+
+    .image-backed.has-image {
+      background-image:
+        linear-gradient(90deg, rgba(17, 17, 17, 0.72), rgba(17, 17, 17, 0.16)),
+        var(--bg-url);
+    }
+
+    .asset-credit {
+      position: absolute;
+      right: 14px;
+      bottom: 12px;
+      z-index: 4;
+      max-width: min(260px, calc(100% - 28px));
+      color: rgba(233, 227, 216, 0.68);
+      font-size: 11px;
+      line-height: 1.25;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: right;
+      pointer-events: none;
+    }
+
+    .hero-panel.image-backed.has-image::before,
+    .hero-panel.image-backed.has-image::after {
+      display: none;
+    }
+
+    .hero-panel::before {
+      content: "";
+      position: absolute;
+      inset: 8%;
+      border: 1px solid rgba(233, 227, 216, 0.26);
+      transform: translateY(var(--shift, 0));
+    }
+
+    .hero-panel::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.42;
+      background:
+        linear-gradient(90deg, transparent 0 45%, rgba(233, 227, 216, 0.2) 45% 46%, transparent 46%),
+        repeating-linear-gradient(0deg, rgba(233, 227, 216, 0.12) 0 1px, transparent 1px 18px);
+      transform: translateY(var(--scan, 0));
+      animation: scan 10s linear infinite;
+    }
+
+    .hero-panel.left {
+      --shift: -24px;
+      background:
+        linear-gradient(90deg, rgba(167, 169, 172, 0.16) 0 1px, transparent 1px 16px),
+        linear-gradient(140deg, #25231f, #0f0f0f 70%);
+    }
+
+    .hero-panel.right {
+      --shift: 28px;
+      background:
+        linear-gradient(90deg, rgba(185, 139, 146, 0.13) 0 1px, transparent 1px 14px),
+        linear-gradient(220deg, #2a2325, #0f0f0f 72%);
+    }
+
+    .hero-panel.left.image-backed.has-image,
+    .hero-panel.right.image-backed.has-image {
+      background-image:
+        linear-gradient(180deg, rgba(17, 17, 17, 0.06) 28%, rgba(17, 17, 17, 0.45) 66%, rgba(17, 17, 17, 0.9)),
+        var(--bg-url);
+      background-size: var(--bg-size, cover);
+      background-position: var(--bg-position, center);
+      background-repeat: no-repeat;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      align-self: end;
+      width: min(1500px, 100%);
+      padding: clamp(94px, 11vw, 160px) clamp(20px, 5vw, 72px) clamp(28px, 5vw, 72px);
+    }
+
+    .hero .eyebrow,
+    .hero .copy-m {
+      color: rgba(233, 227, 216, 0.68);
+    }
+
+    .hero .reveal {
+      opacity: 1;
+      transform: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: clamp(24px, 5vw, 80px);
+    }
+
+    .hero-title {
+      max-width: 12ch;
+    }
+
+    .hero-title span {
+      display: block;
+    }
+
+    .hero-meta {
+      display: grid;
+      gap: 14px;
+      justify-items: end;
+      text-align: right;
+      color: rgba(233, 227, 216, 0.76);
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .pair-lockup {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: var(--bone);
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .hero-bottom {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: clamp(34px, 6vw, 76px);
+      border-top: 1px solid rgba(233, 227, 216, 0.22);
+      padding-top: 18px;
+    }
+
+    .hero-main-copy {
+      max-width: 380px;
+      color: var(--bone);
+      font-size: 19px;
+      line-height: 1.05;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .hero-route {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      width: min(760px, 58vw);
+      gap: 1px;
+      background: rgba(233, 227, 216, 0.24);
+      border: 1px solid rgba(233, 227, 216, 0.22);
+    }
+
+    .hero-route span {
+      min-height: 62px;
+      display: grid;
+      align-content: space-between;
+      gap: 8px;
+      padding: 12px 14px;
+      background: rgba(17, 17, 17, 0.46);
+    }
+
+    .hero-route small {
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .hero-route strong {
+      color: var(--bone);
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .proof {
+      background: var(--bone);
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(28px, 5vw, 82px);
+      align-items: center;
+      width: min(1480px, 100%);
+      margin: auto;
+    }
+
+    .proof-stack {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .proof-card.photo-proof {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+    }
+
+    .proof-photo {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+    }
+
+    .proof-caption {
+      display: grid;
+      gap: 18px;
+      padding: 24px;
+    }
+
+    .proof .proof-line {
+      font-size: 30px;
+    }
+
+    .photo-clear.image-backed.has-image {
+      background-image: var(--bg-url);
+      background-size: cover;
+      background-position: center top;
+    }
+
+    .proof-card {
+      min-height: 158px;
+      display: grid;
+      grid-template-columns: 0.4fr 1fr;
+      gap: 18px;
+      align-items: end;
+      border: 1px solid rgba(17, 17, 17, 0.18);
+      background: rgba(244, 239, 231, 0.68);
+      padding: clamp(18px, 2vw, 28px);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .proof-card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .proof-card.image-backed.has-image {
+      color: var(--bone);
+      border-color: rgba(233, 227, 216, 0.2);
+      background-image:
+        linear-gradient(90deg, rgba(17, 17, 17, 0.78), rgba(17, 17, 17, 0.2)),
+        var(--bg-url);
+      background-position: var(--bg-position, center);
+      text-shadow: 0 1px 18px rgba(17, 17, 17, 0.34);
+    }
+
+    .proof-card.image-backed.has-image .proof-kind {
+      color: rgba(233, 227, 216, 0.7);
+    }
+
+    .proof-card.music-proof {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: stretch;
+      color: var(--bone);
+      border-color: rgba(233, 227, 216, 0.2);
+      background:
+        linear-gradient(90deg, rgba(17, 17, 17, 0.96), rgba(17, 17, 17, 0.7)),
+        linear-gradient(135deg, rgba(185, 139, 146, 0.26), transparent 58%);
+      text-shadow: 0 1px 18px rgba(17, 17, 17, 0.34);
+    }
+
+    .proof-card.music-proof .proof-kind {
+      color: rgba(233, 227, 216, 0.62);
+    }
+
+    .proof-card.music-proof::after {
+      background: var(--rose);
+    }
+
+    .proof-signal {
+      position: absolute;
+      inset: 26px 22px auto;
+      height: 48%;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 7px;
+      opacity: 0.58;
+      pointer-events: none;
+    }
+
+    .proof-signal span {
+      width: 6px;
+      height: var(--h, 46%);
+      background: rgba(233, 227, 216, 0.52);
+      transform-origin: center;
+      animation: proofSignal 3.8s var(--ease) infinite alternate;
+      animation-delay: var(--d, 0ms);
+    }
+
+    .proof-card::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 auto;
+      width: 36%;
+      height: 2px;
+      background: var(--ink);
+      transform: translateX(var(--card-line, 16%));
+      transition: transform 800ms var(--ease);
+    }
+
+    .proof-card:hover::after {
+      transform: translateX(0);
+    }
+
+    .proof-year {
+      font-size: 40px;
+      line-height: 0.9;
+      font-weight: 900;
+    }
+
+    .proof-kind {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .proof-line {
+      margin-top: 8px;
+      font-size: 40px;
+      line-height: 0.96;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .proof-verdict {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 0.9fr 1fr 1fr;
+      gap: 1px;
+      border: 1px solid rgba(17, 17, 17, 0.16);
+      background: rgba(17, 17, 17, 0.14);
+    }
+
+    .proof-verdict div {
+      min-height: 112px;
+      display: grid;
+      align-content: space-between;
+      padding: 18px;
+      background: #f8f5ef;
+    }
+
+    .proof-verdict span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .proof-verdict strong {
+      color: var(--ink);
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .proof-verdict div:last-child {
+      background: var(--ink);
+    }
+
+    .proof-verdict div:last-child span {
+      color: var(--rose);
+    }
+
+    .proof-verdict div:last-child strong {
+      color: var(--bone);
+    }
+
+    .white-space {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(28px, 5vw, 72px);
+      background: #f8f5ef;
+      overflow: hidden;
+    }
+
+    .gap-photo {
+      width: 100%;
+      aspect-ratio: 1200 / 1535;
+    }
+
+    .white-space .headline {
+      font-size: 64px;
+    }
+
+    .gap-lockup {
+      display: grid;
+      gap: clamp(16px, 3vw, 34px);
+      justify-items: start;
+    }
+
+    .gap-checks {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: min(980px, 100%);
+      margin-top: clamp(34px, 5vw, 66px);
+      border: 1px solid var(--line);
+    }
+
+    .gap-check {
+      min-height: 96px;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .gap-check:last-child {
+      border-right: 0;
+      color: var(--ink);
+      background: var(--bone);
+    }
+
+    .gap-check:nth-child(even) {
+      border-right: 0;
+    }
+
+    .gap-check:nth-last-child(-n + 2) {
+      border-bottom: 0;
+    }
+
+    .roles {
+      background: var(--ink);
+      color: var(--bone);
+    }
+
+    .roles .eyebrow,
+    .song .eyebrow,
+    .song .kicker,
+    .demo-brief .eyebrow,
+    .demo-brief .kicker,
+    .stage .eyebrow,
+    .end .eyebrow {
+      color: rgba(233, 227, 216, 0.68);
+    }
+
+    .roles .reveal,
+    .song .reveal,
+    .demo-brief .reveal,
+    .stage .reveal,
+    .end .reveal {
+      opacity: 1;
+      transform: none;
+    }
+
+    .role-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: calc(100svh - 160px);
+      border: 1px solid rgba(233, 227, 216, 0.2);
+      width: min(1500px, 100%);
+      margin: auto;
+    }
+
+    .role-panel {
+      display: grid;
+      align-content: end;
+      gap: 24px;
+      min-height: 62svh;
+      padding: clamp(24px, 4vw, 64px);
+      border-right: 1px solid rgba(233, 227, 216, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .role-panel > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .role-panel:last-child {
+      border-right: 0;
+    }
+
+    .role-panel.image-backed.has-image {
+      background-image:
+        linear-gradient(180deg, transparent 30%, rgba(17, 17, 17, 0.42) 58%, rgba(17, 17, 17, 0.92)),
+        var(--bg-url);
+      background-position: var(--bg-position, center 18%);
+      background-size: var(--bg-size, cover);
+    }
+
+    .role-panel::after {
+      content: "";
+      position: absolute;
+      left: 10%;
+      right: 10%;
+      bottom: 22%;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.28;
+      transform-origin: left center;
+      animation: stretch 5.5s var(--ease) infinite alternate;
+    }
+
+    .role-panel.image-backed.has-image::after {
+      display: none;
+    }
+
+    .role-panel.rei::after {
+      height: 22px;
+      background:
+        linear-gradient(90deg, currentColor 0 10%, transparent 10% 18%, currentColor 18% 24%, transparent 24% 36%, currentColor 36% 48%, transparent 48% 56%, currentColor 56% 100%);
+      opacity: 0.22;
+      animation-duration: 3.8s;
+    }
+
+    .role-label {
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .role-words {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      color: rgba(233, 227, 216, 0.62);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .role-words span {
+      border: 1px solid rgba(233, 227, 216, 0.2);
+      padding: 8px 10px;
+    }
+
+    .role-equation {
+      position: relative;
+      z-index: 3;
+      width: min(1500px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(233, 227, 216, 0.18);
+      border: 1px solid rgba(233, 227, 216, 0.24);
+    }
+
+    .role-equation div {
+      min-height: 112px;
+      display: grid;
+      align-content: space-between;
+      padding: 18px;
+      background: rgba(17, 17, 17, 0.72);
+    }
+
+    .role-equation span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .role-equation strong {
+      color: var(--bone);
+      font-size: 18px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .role-equation p {
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 12px;
+      line-height: 1.3;
+    }
+
+    .now {
+      background: var(--paper);
+    }
+
+    .now-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+      gap: clamp(30px, 6vw, 96px);
+      align-items: center;
+      width: min(1450px, 100%);
+      margin: auto;
+    }
+
+    .now-steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      width: min(880px, 100%);
+      margin-top: clamp(30px, 4vw, 52px);
+      border: 1px solid rgba(17, 17, 17, 0.16);
+      background: rgba(17, 17, 17, 0.12);
+      gap: 1px;
+    }
+
+    .now-step {
+      min-height: 112px;
+      display: grid;
+      align-content: space-between;
+      padding: 16px;
+      background: var(--paper);
+    }
+
+    .now-step span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .now-step strong {
+      font-size: 20px;
+      line-height: 0.98;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .now-step p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .now-window {
+      display: grid;
+      grid-template-columns: 0.32fr 1fr;
+      width: min(880px, 100%);
+      gap: 1px;
+      border: 1px solid rgba(17, 17, 17, 0.16);
+      border-top: 0;
+      background: rgba(17, 17, 17, 0.12);
+    }
+
+    .now-window span,
+    .now-window strong {
+      display: grid;
+      align-items: end;
+      min-height: 74px;
+      padding: 16px;
+      background: var(--ink);
+      color: var(--bone);
+      text-transform: uppercase;
+    }
+
+    .now-window span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+    }
+
+    .now-window strong {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .solo-map {
+      min-height: 260px;
+      border: 1px solid rgba(17, 17, 17, 0.16);
+      position: relative;
+      background: rgba(233, 227, 216, 0.35);
+      overflow: hidden;
+    }
+
+    .now-photo {
+      aspect-ratio: 4 / 3;
+    }
+
+    .solo-dot {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--ink);
+      transform: translate(-50%, -50%);
+    }
+
+    .solo-dot:nth-of-type(1) { left: 23%; top: 27%; }
+    .solo-dot:nth-of-type(2) { left: 76%; top: 22%; }
+    .solo-dot:nth-of-type(3) { left: 20%; top: 58%; }
+    .solo-dot:nth-of-type(4) { left: 80%; top: 62%; }
+    .solo-dot:nth-of-type(5) { left: 40%; top: 82%; }
+    .solo-dot:nth-of-type(6) { left: 62%; top: 80%; }
+
+    .solo-dot[data-label] {
+      width: 18px;
+      height: 18px;
+      background: var(--rose);
+    }
+
+    .solo-dot[data-label]::after {
+      content: attr(data-label);
+      position: absolute;
+      left: 50%;
+      top: calc(100% + 10px);
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transform: translateX(-50%);
+    }
+
+    .solo-dot[data-label]::before {
+      content: "";
+      position: absolute;
+      inset: -8px;
+      border: 1px solid rgba(185, 139, 146, 0.45);
+      border-radius: 50%;
+    }
+
+    .solo-line {
+      position: absolute;
+      left: 20%;
+      top: 58%;
+      width: 61%;
+      height: 2px;
+      background: var(--rose);
+      transform: rotate(4deg);
+      transform-origin: left center;
+      animation: pulseLine 2.8s var(--ease) infinite alternate;
+    }
+
+    .solo-caption {
+      position: absolute;
+      inset: auto 24px 24px;
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .song {
+      color: var(--bone);
+      background: #151515;
+    }
+
+    .demo-brief {
+      color: var(--bone);
+      background: var(--ink);
+    }
+
+    .song-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(300px, 1.2fr);
+      gap: clamp(30px, 6vw, 86px);
+      align-items: center;
+      width: min(1500px, 100%);
+      margin: auto;
+    }
+
+    .song .headline {
+      font-size: 76px;
+    }
+
+    .demo-brief .headline {
+      font-size: 92px;
+    }
+
+    .brief-panel {
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(233, 227, 216, 0.16);
+    }
+
+    .brief-cell {
+      min-height: 118px;
+      padding: 22px;
+      background: #151515;
+    }
+
+    .brief-label {
+      display: block;
+      margin-bottom: 12px;
+      color: rgba(233, 227, 216, 0.52);
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .brief-value {
+      color: var(--bone);
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .brief-note {
+      display: block;
+      margin-top: 12px;
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .song-logic {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 1px;
+      background: rgba(233, 227, 216, 0.16);
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      border-top: 0;
+    }
+
+    .song-step {
+      min-height: 108px;
+      padding: 20px;
+      background: #151515;
+    }
+
+    .song-step strong {
+      display: block;
+      color: var(--bone);
+      font-size: 20px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .song-step span {
+      display: block;
+      margin-top: 10px;
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .wave {
+      height: 320px;
+      display: grid;
+      align-content: center;
+      gap: 26px;
+      padding: 20px 0;
+    }
+
+    .wave-line {
+      height: 48px;
+      background:
+        linear-gradient(90deg, transparent 0 3%, currentColor 3% 5%, transparent 5% 8%, currentColor 8% 11%, transparent 11% 17%, currentColor 17% 19%, transparent 19% 27%, currentColor 27% 34%, transparent 34% 39%, currentColor 39% 43%, transparent 43% 48%, currentColor 48% 56%, transparent 56% 63%, currentColor 63% 66%, transparent 66% 72%, currentColor 72% 85%, transparent 85%);
+      color: var(--bone);
+      opacity: 0.72;
+      clip-path: polygon(0 48%, 7% 18%, 11% 70%, 16% 28%, 20% 62%, 28% 20%, 35% 84%, 42% 24%, 49% 56%, 55% 18%, 64% 82%, 70% 30%, 76% 68%, 83% 20%, 90% 50%, 100% 50%, 100% 100%, 0 100%);
+      transform-origin: left center;
+      animation: waveMove 5.2s var(--ease) infinite alternate;
+    }
+
+    .wave-line.rei {
+      color: var(--rose);
+      height: 32px;
+      clip-path: polygon(0 54%, 6% 30%, 9% 76%, 14% 24%, 18% 62%, 24% 34%, 29% 78%, 36% 26%, 43% 72%, 47% 38%, 52% 84%, 59% 22%, 64% 64%, 70% 28%, 78% 74%, 84% 36%, 92% 62%, 100% 48%, 100% 100%, 0 100%);
+      animation-duration: 3.4s;
+    }
+
+    .wave-merge {
+      margin-top: 18px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--bone), var(--rose), var(--bone));
+      transform-origin: center;
+      animation: merge 4s var(--ease) infinite alternate;
+    }
+
+    .song-photo,
+    .demo-photo,
+    .loop-photo,
+    .stage-photo {
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      background: #151515;
+      overflow: hidden;
+    }
+
+    .song-photo.image-backed.has-image,
+    .demo-photo.image-backed.has-image,
+    .loop-photo.image-backed.has-image,
+    .stage-photo.image-backed.has-image {
+      background-image: var(--bg-url);
+      background-position: center top;
+      background-size: var(--bg-size, cover);
+    }
+
+    .song-photo,
+    .demo-photo,
+    .loop-photo {
+      margin-bottom: 1px;
+    }
+
+    .demo-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.78fr) minmax(320px, 1.22fr);
+      gap: clamp(30px, 6vw, 92px);
+      align-items: center;
+      width: min(1500px, 100%);
+      margin: auto;
+    }
+
+    .demo-specs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      background: rgba(233, 227, 216, 0.16);
+    }
+
+    .demo-card {
+      min-height: 150px;
+      display: grid;
+      align-content: space-between;
+      padding: 22px;
+      background: var(--ink);
+    }
+
+    .demo-card span {
+      color: rgba(233, 227, 216, 0.54);
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .demo-card strong {
+      color: var(--bone);
+      font-size: 26px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .demo-card p {
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .arrangement-strip {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 1px;
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      border-top: 0;
+      background: rgba(233, 227, 216, 0.16);
+    }
+
+    .arrangement-step {
+      min-height: 104px;
+      display: grid;
+      align-content: space-between;
+      padding: 16px;
+      background: var(--ink);
+    }
+
+    .arrangement-step span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .arrangement-step strong {
+      color: var(--bone);
+      font-size: 15px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .demo-guardrails {
+      display: grid;
+      grid-template-columns: 0.9fr repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      border-top: 0;
+      background: rgba(233, 227, 216, 0.16);
+    }
+
+    .guardrail-title,
+    .guardrail-item {
+      min-height: 82px;
+      display: grid;
+      align-content: space-between;
+      padding: 16px;
+      background: var(--ink);
+    }
+
+    .guardrail-title span,
+    .guardrail-item span {
+      color: var(--rose);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .guardrail-title strong,
+    .guardrail-item strong {
+      color: var(--bone);
+      font-size: 15px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .visual-code {
+      background: var(--bone);
+    }
+
+    .style-heading {
+      width: min(1500px, 100%);
+      margin: 0 auto 36px;
+    }
+
+    .style-palette {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin-top: 24px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .style-palette span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .style-palette i {
+      width: 14px;
+      height: 14px;
+      border: 1px solid rgba(17, 17, 17, 0.2);
+      background: var(--swatch);
+    }
+
+    .style-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: min(1500px, 100%);
+      margin: auto;
+    }
+
+    .style-card {
+      min-width: 0;
+    }
+
+    .style-portrait {
+      position: relative;
+      aspect-ratio: 1200 / 1535;
+      width: 100%;
+    }
+
+    .style-portrait.image-backed.has-image {
+      background-image: var(--bg-url);
+      background-size: contain;
+      background-position: center;
+    }
+
+    .style-list {
+      display: grid;
+      gap: 6px;
+      padding: 20px 16px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .style-list strong {
+      font-size: 22px;
+      color: var(--ink);
+    }
+
+    .style-rules {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(17, 17, 17, 0.14);
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+    }
+
+    .style-rule {
+      min-height: 106px;
+      display: grid;
+      align-content: space-between;
+      padding: 18px;
+      background: #f8f5ef;
+    }
+
+    .style-rule span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .style-rule strong {
+      color: var(--ink);
+      font-size: 20px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .style-rule:last-child {
+      background: var(--ink);
+    }
+
+    .style-rule:last-child span {
+      color: var(--rose);
+    }
+
+    .style-rule:last-child strong {
+      color: var(--bone);
+    }
+
+    .stage {
+      background: var(--ink);
+      color: var(--bone);
+    }
+
+    .stage-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.78fr) minmax(320px, 1.22fr);
+      gap: clamp(30px, 6vw, 92px);
+      align-items: center;
+      width: min(1500px, 100%);
+      margin: auto;
+    }
+
+    .stage-lines {
+      width: 100%;
+      height: 290px;
+      position: relative;
+      border: 1px solid rgba(233, 227, 216, 0.16);
+    }
+
+    .stage-photo + .stage-lines {
+      margin-top: 1px;
+    }
+
+    .stage-line {
+      position: absolute;
+      top: 24%;
+      bottom: 24%;
+      width: 3px;
+      background: var(--bone);
+      transform-origin: center bottom;
+      animation: converge 5s var(--ease) infinite alternate;
+    }
+
+    .stage-line.left {
+      left: 34%;
+    }
+
+    .stage-line.right {
+      right: 34%;
+      animation-name: convergeRight;
+    }
+
+    .stage-platform {
+      position: absolute;
+      left: 50%;
+      bottom: 16%;
+      width: min(220px, 34%);
+      height: 12px;
+      background: var(--rose);
+      transform: translateX(-50%);
+    }
+
+    .pilot-board {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 1px;
+      border: 1px solid rgba(233, 227, 216, 0.18);
+      border-top: 0;
+      background: rgba(233, 227, 216, 0.16);
+    }
+
+    .pilot-step {
+      min-height: 138px;
+      display: grid;
+      align-content: space-between;
+      padding: 18px;
+      background: var(--ink);
+    }
+
+    .pilot-step span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .pilot-step strong {
+      color: var(--bone);
+      font-size: 20px;
+      line-height: 0.98;
+      text-transform: uppercase;
+    }
+
+    .pilot-step p {
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .loop {
+      background: #f8f5ef;
+      padding-top: clamp(64px, 6vw, 84px);
+      padding-bottom: clamp(64px, 6vw, 84px);
+    }
+
+    .loop .headline {
+      font-size: 68px;
+    }
+
+    .loop .loop-photo {
+      min-height: 230px;
+    }
+
+    .loop-layout {
+      width: min(1320px, 100%);
+      margin: clamp(24px, 3vw, 34px) auto 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.55fr);
+      gap: 32px;
+      align-items: start;
+    }
+
+    .loop-main {
+      display: grid;
+      gap: 24px;
+    }
+
+    .loop-track {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(17, 17, 17, 0.16);
+    }
+
+    .loop-step {
+      min-height: 102px;
+      display: grid;
+      align-content: space-between;
+      padding: 16px;
+      background: #f8f5ef;
+    }
+
+    .loop-no {
+      color: var(--rose);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .loop-word {
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 0.96;
+      text-transform: uppercase;
+    }
+
+    .signal-gate {
+      display: grid;
+      grid-template-columns: 1fr;
+      background: rgba(17, 17, 17, 0.16);
+      gap: 1px;
+    }
+
+    .signal-title,
+    .signal-list {
+      background: #f8f5ef;
+      padding: 18px;
+    }
+
+    .signal-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 64px;
+    }
+
+    .signal-title strong {
+      font-size: 28px;
+      line-height: 0.98;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .signal-title span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .signal-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      padding: 0;
+      background: rgba(17, 17, 17, 0.12);
+    }
+
+    .signal-item {
+      min-height: 88px;
+      display: grid;
+      align-items: end;
+      padding: 14px;
+      background: #f8f5ef;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 850;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .signal-thresholds {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(17, 17, 17, 0.16);
+    }
+
+    .threshold-title,
+    .threshold-item {
+      min-height: 88px;
+      display: grid;
+      align-content: space-between;
+      padding: 18px;
+      background: #f8f5ef;
+    }
+
+    .threshold-title {
+      grid-column: 1 / -1;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .threshold-item {
+      min-height: 150px;
+      gap: 14px;
+    }
+
+    .threshold-title span,
+    .threshold-item span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .threshold-title strong {
+      font-size: 24px;
+      line-height: 0.98;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .threshold-item strong {
+      color: var(--ink);
+      font-size: 25px;
+      line-height: 0.95;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .threshold-item p {
+      color: rgba(17, 17, 17, 0.58);
+      font-size: 12px;
+      line-height: 1.25;
+      font-weight: 750;
+      text-transform: uppercase;
+    }
+
+    .decision-rule {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1px;
+      background: rgba(17, 17, 17, 0.16);
+    }
+
+    .decision-copy,
+    .decision-outcomes {
+      background: #f8f5ef;
+      padding: 18px;
+    }
+
+    .decision-copy {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      min-height: 0;
+    }
+
+    .decision-copy span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .decision-copy strong {
+      font-size: 25px;
+      line-height: 0.98;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .decision-outcomes {
+      display: grid;
+      gap: 1px;
+      padding: 0;
+      background: rgba(17, 17, 17, 0.12);
+    }
+
+    .decision-outcome {
+      min-height: 78px;
+      display: grid;
+      align-content: space-between;
+      gap: 10px;
+      padding: 18px;
+      background: #f8f5ef;
+    }
+
+    .decision-outcome span {
+      color: var(--rose);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .decision-outcome strong {
+      font-size: 18px;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .decision-outcome p {
+      color: rgba(17, 17, 17, 0.58);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .end {
+      min-height: 100svh;
+      padding: 0;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      background: var(--ink);
+      color: var(--bone);
+      overflow: hidden;
+    }
+
+    .end-photo {
+      order: 2;
+      align-self: stretch;
+    }
+
+    .end-photo.image-backed.has-image {
+      background-image: var(--bg-url);
+      background-position: center top;
+      background-size: 100% auto;
+    }
+
+    .end-lockup {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      gap: 28px;
+      justify-items: start;
+      width: 100%;
+      margin: auto;
+      padding: 100px clamp(24px, 4vw, 64px) 64px;
+    }
+
+    .end .headline {
+      font-size: 64px;
+    }
+
+    .end-route {
+      display: grid;
+      width: 100%;
+    }
+
+    .end-step {
+      display: grid;
+      gap: 10px;
+      padding: 18px 0;
+      border-top: 1px solid rgba(233, 227, 216, 0.22);
+    }
+
+    .end-step span {
+      color: var(--rose);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .end-step strong {
+      color: var(--bone);
+      font-size: 20px;
+      line-height: 0.98;
+      text-transform: uppercase;
+    }
+
+    .end-step p {
+      margin-top: 5px;
+      color: rgba(233, 227, 216, 0.58);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .source-drawer {
+      visibility: hidden;
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 60;
+      width: min(560px, calc(100vw - 32px));
+      max-height: min(680px, calc(100svh - 96px));
+      overflow: auto;
+      padding: 22px;
+      background: rgba(248, 245, 239, 0.96);
+      border: 1px solid rgba(17, 17, 17, 0.18);
+      box-shadow: 0 24px 80px rgba(17, 17, 17, 0.18);
+      transform: translateY(calc(100% + 32px));
+      transition: transform 560ms var(--ease);
+    }
+
+    .source-drawer.open {
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .source-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+
+    .source-drawer h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .source-close {
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(17, 17, 17, 0.28);
+      border-radius: 0;
+      display: grid;
+      place-items: center;
+      background: transparent;
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .source-toggle:focus-visible,
+    .source-close:focus-visible,
+    .source-list a:focus-visible {
+      outline: 2px solid var(--rose);
+      outline-offset: 3px;
+    }
+
+    .source-list {
+      display: grid;
+      gap: 12px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .source-list a {
+      display: block;
+      padding: 13px 0;
+      border-top: 1px solid rgba(17, 17, 17, 0.12);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .source-list strong {
+      display: block;
+      color: var(--ink);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .brief-link {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 0;
+      border-bottom: 1px solid currentColor;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .brief-link:focus-visible {
+      outline: 2px solid var(--rose);
+      outline-offset: 4px;
+    }
+
+    .decision-rule .brief-link {
+      margin-top: 0;
+      padding: 18px;
+      background: #f8f5ef;
+    }
+
+    .proposal-credit {
+      color: var(--silver);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .reveal {
+      opacity: 1;
+      transform: none;
+    }
+
+    .motion-ready .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition:
+        opacity 760ms var(--ease),
+        transform 760ms var(--ease);
+    }
+
+    .motion-ready .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes scan {
+      to { transform: translateY(36px); }
+    }
+
+    @keyframes proofSignal {
+      from { transform: scaleY(0.72); }
+      to { transform: scaleY(1.14); }
+    }
+
+    @keyframes stretch {
+      from { transform: scaleX(0.4); }
+      to { transform: scaleX(1); }
+    }
+
+    @keyframes pulseLine {
+      from { transform: rotate(4deg) scaleX(0.68); opacity: 0.6; }
+      to { transform: rotate(4deg) scaleX(1); opacity: 1; }
+    }
+
+    @keyframes waveMove {
+      from { transform: translateX(-2%) scaleX(0.82); }
+      to { transform: translateX(5%) scaleX(1); }
+    }
+
+    @keyframes merge {
+      from { transform: scaleX(0.22); opacity: 0.48; }
+      to { transform: scaleX(1); opacity: 1; }
+    }
+
+    @keyframes converge {
+      from { transform: translateX(-120px) skewX(-2deg); }
+      to { transform: translateX(80px) skewX(-12deg); }
+    }
+
+    @keyframes convergeRight {
+      from { transform: translateX(120px) skewX(2deg); }
+      to { transform: translateX(-80px) skewX(12deg); }
+    }
+
+    @media (max-width: 980px) {
+      .hero-visual {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-panel.left {
+        display: none;
+      }
+
+      .hero-panel.right.image-backed.has-image {
+        background-image:
+          linear-gradient(180deg, transparent 26%, rgba(17, 17, 17, 0.68) 58%, var(--ink) 88%),
+          var(--bg-url);
+        background-size: 100% 100%, 100% auto;
+        background-position: center top;
+      }
+
+      .end {
+        grid-template-columns: 1fr;
+      }
+
+      .end-photo {
+        order: 0;
+        aspect-ratio: 4 / 3;
+      }
+
+      .display {
+        font-size: 108px;
+      }
+
+      .headline {
+        font-size: 78px;
+      }
+
+      .song .headline {
+        font-size: 56px;
+      }
+
+      .demo-brief .headline {
+        font-size: 64px;
+      }
+
+      .loop .headline {
+        font-size: 56px;
+      }
+
+      .subheadline {
+        font-size: 56px;
+      }
+
+      .copy-xl {
+        font-size: 44px;
+      }
+
+      .copy-l {
+        font-size: 30px;
+      }
+
+      .copy-m,
+      .kicker {
+        font-size: 16px;
+      }
+
+      .pair-lockup {
+        font-size: 24px;
+      }
+
+      .proof-year,
+      .proof-line {
+        font-size: 34px;
+      }
+
+      .brief-value {
+        font-size: 26px;
+      }
+
+      .loop-word {
+        font-size: 19px;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .hero-grid,
+      .proof-grid,
+      .white-space,
+      .now-grid,
+      .song-grid,
+      .demo-grid,
+      .stage-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-meta {
+        justify-items: start;
+        text-align: left;
+      }
+
+      .hero-bottom {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .hero-route {
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .role-grid,
+      .signal-gate,
+      .decision-rule {
+        grid-template-columns: 1fr;
+      }
+
+      .song-logic,
+      .arrangement-strip,
+      .demo-guardrails,
+      .pilot-board,
+      .now-steps,
+      .now-window,
+      .end-route,
+      .proof-verdict,
+      .style-rules,
+      .signal-list,
+      .signal-thresholds {
+        grid-template-columns: 1fr;
+      }
+
+      .loop-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .loop-track {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .loop-step {
+        min-height: 96px;
+      }
+
+      .signal-title {
+        min-height: 118px;
+      }
+
+      .threshold-title,
+      .threshold-item {
+        min-height: 82px;
+      }
+
+      .threshold-title,
+      .threshold-item {
+        min-height: 94px;
+      }
+
+      .decision-copy {
+        min-height: 118px;
+      }
+
+      .role-panel {
+        border-right: 0;
+        border-bottom: 1px solid rgba(233, 227, 216, 0.2);
+      }
+
+      .role-equation {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        width: 100%;
+        margin: 1px auto 0;
+        grid-template-columns: 1fr;
+        transform: none;
+      }
+
+      .role-equation div {
+        min-height: 84px;
+      }
+
+      .style-rule {
+        min-height: 86px;
+      }
+
+      .gap-checks {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .gap-check:nth-child(2) {
+        border-right: 0;
+      }
+    }
+
+    @media (max-width: 640px) {
+      body {
+        background: var(--paper);
+      }
+
+      .topbar {
+        height: 56px;
+        padding: 0 14px;
+      }
+
+      .brandmark span:last-child {
+        display: none;
+      }
+
+      .source-toggle {
+        padding: 7px 10px;
+      }
+
+      .scene {
+        padding: 82px 18px;
+      }
+
+      .scene.hero,
+      .scene.end {
+        padding: 0;
+      }
+
+      .image-backed.has-image {
+        background-position: var(--bg-mobile-position, var(--bg-position, center));
+      }
+
+      .role-panel.image-backed.has-image {
+        background-position: var(--bg-mobile-position, var(--bg-position, center));
+      }
+
+      .scene:not(.hero) {
+        align-items: start;
+      }
+
+      .motion-ready .reveal {
+        opacity: 1;
+        transform: none;
+      }
+
+      .hero-visual {
+        grid-template-columns: 1fr;
+        opacity: 1;
+      }
+
+      .hero-panel.left {
+        display: none;
+      }
+
+      .hero-panel.right {
+        display: block;
+      }
+
+      .hero-panel.right.image-backed.has-image {
+        background-image:
+          linear-gradient(180deg, transparent 18%, rgba(17, 17, 17, 0.68) 54%, var(--ink) 76%),
+          var(--bg-url);
+        background-position: var(--bg-mobile-position, var(--bg-position, center top));
+        background-size: 100% 100%, 100% auto;
+        background-repeat: no-repeat;
+      }
+
+      .hero-copy {
+        padding: 270px 18px 28px;
+      }
+
+      .hero-main-copy {
+        font-size: 17px;
+      }
+
+      .hero-route strong {
+        font-size: 12px;
+      }
+
+      .display {
+        font-size: 70px;
+      }
+
+      .headline {
+        font-size: 48px;
+      }
+
+      .white-space .headline {
+        font-size: 42px;
+      }
+
+      .proof-stack {
+        grid-template-columns: 1fr;
+      }
+
+      .proof-card.music-proof {
+        min-height: 260px;
+      }
+
+      .end {
+        grid-template-columns: 1fr;
+      }
+
+      .end-photo {
+        order: 0;
+        aspect-ratio: 4 / 3;
+      }
+
+      .end-lockup {
+        padding: 36px 18px 56px;
+      }
+
+      .end .headline {
+        font-size: 42px;
+      }
+
+      .style-heading .subheadline {
+        font-size: 30px;
+      }
+
+      .style-list {
+        padding: 16px 8px;
+        font-size: 12px;
+      }
+
+      .style-list strong {
+        font-size: 17px;
+      }
+
+      .style-rules {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .style-rule strong {
+        font-size: 15px;
+      }
+
+      .song .headline {
+        font-size: 42px;
+      }
+
+      .demo-brief .headline {
+        font-size: 42px;
+      }
+
+      .loop .headline {
+        font-size: 42px;
+      }
+
+      .subheadline {
+        font-size: 38px;
+      }
+
+      .copy-xl {
+        font-size: 34px;
+      }
+
+      .copy-l {
+        font-size: 25px;
+      }
+
+      .pair-lockup {
+        font-size: 20px;
+      }
+
+      .proof-year,
+      .proof-line {
+        font-size: 28px;
+      }
+
+      .brief-value {
+        font-size: 22px;
+      }
+
+      .loop-word {
+        font-size: 17px;
+      }
+
+      .proof-card {
+        grid-template-columns: 1fr;
+      }
+
+      .proof-verdict div {
+        min-height: 86px;
+      }
+
+      .role-panel {
+        min-height: 560px;
+      }
+
+      .role-equation {
+        width: 100%;
+      }
+
+      .proof-signal {
+        inset: auto 18px 18px 48%;
+        height: 62px;
+        opacity: 0.36;
+      }
+
+      .gap-checks {
+        grid-template-columns: 1fr;
+      }
+
+      .gap-check {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .gap-check:last-child {
+        border-bottom: 0;
+      }
+
+      .gap-check:nth-child(3) {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brief-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .demo-specs {
+        grid-template-columns: 1fr;
+      }
+
+      .song-logic {
+        grid-template-columns: 1fr;
+      }
+
+      .arrangement-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .demo-guardrails {
+        grid-template-columns: 1fr;
+      }
+
+      .signal-list {
+        grid-template-columns: 1fr;
+      }
+
+      .threshold-title,
+      .threshold-item {
+        min-height: 86px;
+      }
+
+      .threshold-item strong {
+        font-size: 24px;
+      }
+
+      .loop-track {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .loop-step {
+        min-height: 92px;
+      }
+
+      .signal-title strong {
+        font-size: 24px;
+      }
+
+      .threshold-title,
+      .threshold-item {
+        min-height: 78px;
+      }
+
+      .threshold-item strong {
+        font-size: 24px;
+      }
+
+      .stage-lines {
+        height: 220px;
+      }
+
+      .pilot-board {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar" aria-label="Site header">
+    <a class="brandmark" href="#top" aria-label="SAME SIDE top">
+      <span class="slashes" aria-hidden="true"></span>
+      <span>SAME SIDE</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#proof">Proof</a>
+      <a href="#song">Song</a>
+      <a href="#stage">Stage</a>
+      <a href="#loop">Loop</a>
+    </nav>
+    <button class="source-toggle" type="button" aria-controls="sources" aria-expanded="false">
+      Sources
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="scene hero" aria-labelledby="hero-title">
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-panel left image-backed" data-bg-key="heroSupport"></div>
+        <div class="hero-panel right image-backed" data-bg-key="heroPair"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">IVE Artist Strategy / Unit IP Proposal</p>
+        <div class="hero-grid">
+          <h1 class="display hero-title reveal" id="hero-title">
+            <span>Same</span>
+            <span>Side</span>
+          </h1>
+          <div class="hero-meta reveal">
+            <div class="pair-lockup">
+              <span>LIZ</span>
+              <span class="slashes" aria-hidden="true"></span>
+              <span>REI</span>
+            </div>
+            <p>Different taste. Same side.</p>
+          </div>
+        </div>
+        <div class="hero-bottom reveal">
+          <p class="hero-main-copy">ALREADY A DUO. NOT YET AN ORIGINAL UNIT.</p>
+          <div class="hero-route" aria-label="SAME SIDE launch route">
+            <span>
+              <small>01</small>
+              <strong>Concert first</strong>
+            </span>
+            <span>
+              <small>02</small>
+              <strong>Fan response</strong>
+            </span>
+            <span>
+              <small>03</small>
+              <strong>Digital release</strong>
+            </span>
+            <span>
+              <small>04</small>
+              <strong>Unit IP</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene proof" id="proof" aria-labelledby="proof-title">
+      <div class="proof-grid">
+        <div>
+          <p class="eyebrow reveal">Proof</p>
+          <h2 class="headline reveal" id="proof-title">Already proven.</h2>
+          <p class="kicker reveal" style="margin-top: 24px;">
+            The missing asset is ownership.
+          </p>
+        </div>
+        <div class="proof-stack" aria-label="Pair proof timeline">
+          <article class="proof-card photo-proof reveal">
+            <div class="proof-photo photo-clear image-backed" data-bg-key="proofSpur" role="img" aria-label="LIZ and REI in the SPUR editorial"></div>
+            <div class="proof-caption">
+              <div>
+                <p class="proof-year">2024</p>
+                <p class="proof-kind">SPUR</p>
+              </div>
+              <p class="proof-line">Editorial framed the pair.</p>
+            </div>
+          </article>
+          <article class="proof-card music-proof reveal">
+            <div class="proof-signal" aria-hidden="true">
+              <span style="--h: 34%; --d: 0ms;"></span>
+              <span style="--h: 62%; --d: 120ms;"></span>
+              <span style="--h: 42%; --d: 240ms;"></span>
+              <span style="--h: 76%; --d: 360ms;"></span>
+              <span style="--h: 48%; --d: 480ms;"></span>
+              <span style="--h: 68%; --d: 600ms;"></span>
+              <span style="--h: 38%; --d: 720ms;"></span>
+              <span style="--h: 82%; --d: 840ms;"></span>
+            </div>
+            <div>
+              <p class="proof-year">2025<br />26</p>
+              <p class="proof-kind">Rock'n Rouge</p>
+            </div>
+            <div>
+              <p class="proof-line">Music recorded the pair.</p>
+            </div>
+          </article>
+          <article class="proof-card photo-proof reveal">
+            <div class="proof-photo photo-clear image-backed" data-bg-key="proofValentino" role="img" aria-label="LIZ and REI at a Valentino appearance"></div>
+            <div class="proof-caption">
+              <div>
+                <p class="proof-year">2026</p>
+                <p class="proof-kind">Maison Valentino</p>
+              </div>
+              <p class="proof-line">Fashion signed the pair.</p>
+            </div>
+          </article>
+          <div class="proof-verdict reveal" aria-label="Proof to IP conversion">
+            <div>
+              <span>Asset</span>
+              <strong>Pair proof already exists.</strong>
+            </div>
+            <div>
+              <span>Gap</span>
+              <strong>Original unit IP is still open.</strong>
+            </div>
+            <div>
+              <span>Move</span>
+              <strong>Convert proof into SAME SIDE.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene white-space" aria-labelledby="gap-title">
+      <div class="gap-photo photo-clear image-backed" data-bg-key="gapPair" role="img" aria-label="SPUR portrait of LIZ and REI together"></div>
+      <div class="gap-lockup">
+        <p class="eyebrow reveal">White Space</p>
+        <h2 class="headline reveal" id="gap-title">
+          Already a duo.<br />
+          Not yet an original unit.
+        </h2>
+        <div class="gap-checks reveal" aria-label="Open IP gap">
+          <div class="gap-check">Editorial<br />exists</div>
+          <div class="gap-check">Recording<br />exists</div>
+          <div class="gap-check">Fashion<br />exists</div>
+          <div class="gap-check">Original Unit IP<br />open</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene roles" aria-labelledby="roles-title">
+      <div class="role-grid">
+        <article class="role-panel liz image-backed" data-bg-key="roleLiz">
+          <div>
+            <p class="role-label reveal">LIZ</p>
+            <h2 class="subheadline reveal" id="roles-title">Line<br />Lift</h2>
+          </div>
+          <div class="role-words reveal">
+            <span>Melodic</span>
+            <span>Expansive</span>
+            <span>Climactic</span>
+          </div>
+        </article>
+        <article class="role-panel rei image-backed" data-bg-key="roleRei">
+          <div>
+            <p class="role-label reveal">REI</p>
+            <h2 class="subheadline reveal">Texture<br />Hook</h2>
+          </div>
+          <div class="role-words reveal">
+            <span>Rhythmic</span>
+            <span>Conversational</span>
+            <span>Playful</span>
+          </div>
+        </article>
+      </div>
+      <div class="role-equation" aria-label="Why LIZ and REI work as a unit">
+        <div>
+          <span>LIZ</span>
+          <strong>Carries the line.</strong>
+          <p>Length, lift, and emotional arrival.</p>
+        </div>
+        <div>
+          <span>REI</span>
+          <strong>Cuts the hook.</strong>
+          <p>Texture, rhythm, and instant recall.</p>
+        </div>
+        <div>
+          <span>SAME SIDE</span>
+          <strong>The contrast locks.</strong>
+          <p>Not mirrored. Built to answer each other.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene now" aria-labelledby="now-title">
+      <div class="now-grid">
+        <div>
+          <p class="eyebrow reveal">Why Now</p>
+          <h2 class="headline reveal" id="now-title">
+            Revive+ defined six solo lanes.
+          </h2>
+          <p class="copy-l reveal" style="margin-top: 26px;">The next scale is two.</p>
+          <p class="kicker reveal" style="margin-top: 20px;">
+            Solo color is mapped. Combination is the open format.
+          </p>
+          <div class="now-steps reveal" aria-label="Why now strategy sequence">
+            <div class="now-step">
+              <span>01</span>
+              <div>
+                <strong>Solo lane</strong>
+                <p>Each member owns a tone.</p>
+              </div>
+            </div>
+            <div class="now-step">
+              <span>02</span>
+              <div>
+                <strong>Pair test</strong>
+                <p>LIZ // REI connects first.</p>
+              </div>
+            </div>
+            <div class="now-step">
+              <span>03</span>
+              <div>
+                <strong>Group return</strong>
+                <p>The unit feeds IVE equity.</p>
+              </div>
+            </div>
+          </div>
+          <div class="now-window reveal" aria-label="Unit timing rule">
+            <span>Window</span>
+            <strong>Open when solo color is clear and pair proof already exists.</strong>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="now-photo photo-clear image-backed" data-bg-key="nowPair" role="img" aria-label="LIZ and REI, Maison Valentino ambassador portrait"></div>
+          <div class="solo-map" aria-label="Six member solo lanes map">
+          <div class="solo-line" aria-hidden="true"></div>
+          <span class="solo-dot"></span>
+          <span class="solo-dot"></span>
+          <span class="solo-dot" data-label="LIZ"></span>
+          <span class="solo-dot" data-label="REI"></span>
+          <span class="solo-dot"></span>
+          <span class="solo-dot"></span>
+          <div class="solo-caption">
+            <span>Solo lanes</span>
+            <span>Pair test</span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene song" id="song" aria-labelledby="song-title">
+      <div class="song-grid">
+        <div>
+          <p class="eyebrow reveal">The Song</p>
+          <h2 class="headline reveal" id="song-title">Velvet 2-Step Pop</h2>
+          <p class="kicker reveal" style="margin-top: 24px;">
+            Close vocal. Light bounce. Clean tension.
+          </p>
+        </div>
+        <div>
+          <div class="song-photo image-backed reveal" data-bg-key="songPair" aria-hidden="true"></div>
+          <div class="wave reveal" aria-label="Two vocal lines merging">
+            <div class="wave-line liz" aria-hidden="true"></div>
+            <div class="wave-line rei" aria-hidden="true"></div>
+            <div class="wave-merge" aria-hidden="true"></div>
+          </div>
+          <div class="brief-panel reveal" aria-label="A&R brief snapshot">
+            <div class="brief-cell">
+              <span class="brief-label">Tempo</span>
+              <span class="brief-value">114 BPM</span>
+              <span class="brief-note">2-step bounce. No heavy drop.</span>
+            </div>
+            <div class="brief-cell">
+              <span class="brief-label">Key lane</span>
+              <span class="brief-value">F# minor</span>
+              <span class="brief-note">A major lift in the hook.</span>
+            </div>
+            <div class="brief-cell">
+              <span class="brief-label">Hook</span>
+              <span class="brief-value">Different taste / same side</span>
+              <span class="brief-note">Short-form ready. Not childish.</span>
+            </div>
+            <div class="brief-cell">
+              <span class="brief-label">Length</span>
+              <span class="brief-value">2:38 - 2:45</span>
+              <span class="brief-note">Compact enough for repeat play.</span>
+            </div>
+          </div>
+          <div class="song-logic reveal" aria-label="A&R arrangement logic">
+            <div class="song-step">
+              <strong>REI opens.</strong>
+              <span>Close, dry, conversational. Character in the first 8 seconds.</span>
+            </div>
+            <div class="song-step">
+              <strong>LIZ lifts.</strong>
+              <span>Longer line, cleaner vowel, wider pre-chorus space.</span>
+            </div>
+            <div class="song-step">
+              <strong>Both lock.</strong>
+              <span>The chorus is the first true same-side moment.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene demo-brief" id="demo" aria-labelledby="demo-title">
+      <div class="demo-grid">
+        <div>
+          <p class="eyebrow reveal">Demo Request</p>
+          <h2 class="headline reveal" id="demo-title">
+            Not a mood.<br />
+            A brief.
+          </h2>
+          <p class="kicker reveal" style="margin-top: 24px;">
+            Send producers a lane, a structure, and vocal jobs.
+          </p>
+          <a class="brief-link" href="briefs.html#demo">Full A&amp;R brief &#8599;</a>
+        </div>
+        <div>
+          <div class="demo-photo image-backed reveal" data-bg-key="demoPair" aria-hidden="true"></div>
+          <div class="demo-specs reveal" aria-label="Producer demo specifications">
+            <div class="demo-card">
+              <span>Chord mood</span>
+              <strong>F#m9 / Dmaj7</strong>
+              <p>Warm tension. A major lift in the hook.</p>
+            </div>
+            <div class="demo-card">
+              <span>Drums</span>
+              <strong>2-step hats</strong>
+              <p>Soft garage snare. Wider clap only at the final hook.</p>
+            </div>
+            <div class="demo-card">
+              <span>Bass</span>
+              <strong>Elastic sub</strong>
+              <p>Short under REI. Held under LIZ.</p>
+            </div>
+            <div class="demo-card">
+              <span>Vocal texture</span>
+              <strong>Close / wide</strong>
+              <p>REI dry and near. LIZ opens the lift.</p>
+            </div>
+          </div>
+          <div class="arrangement-strip reveal" aria-label="Demo arrangement map">
+            <div class="arrangement-step">
+              <span>0:00</span>
+              <strong>REI close intro</strong>
+            </div>
+            <div class="arrangement-step">
+              <span>0:25</span>
+              <strong>LIZ pre-lift</strong>
+            </div>
+            <div class="arrangement-step">
+              <span>0:42</span>
+              <strong>Hook one</strong>
+            </div>
+            <div class="arrangement-step">
+              <span>1:49</span>
+              <strong>Trade short phrases</strong>
+            </div>
+            <div class="arrangement-step">
+              <span>2:06</span>
+              <strong>Final same side</strong>
+            </div>
+          </div>
+          <div class="demo-guardrails reveal" aria-label="Demo guardrails">
+            <div class="guardrail-title">
+              <span>Guardrail</span>
+              <strong>Pair IP. Not novelty.</strong>
+            </div>
+            <div class="guardrail-item">
+              <span>No 01</span>
+              <strong>Title-track imitation</strong>
+            </div>
+            <div class="guardrail-item">
+              <span>No 02</span>
+              <strong>Heavy drop</strong>
+            </div>
+            <div class="guardrail-item">
+              <span>No 03</span>
+              <strong>Twin-look logic</strong>
+            </div>
+            <div class="guardrail-item">
+              <span>No 04</span>
+              <strong>Inserted rap break</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene visual-code" aria-labelledby="visual-title">
+      <header class="style-heading">
+        <p class="eyebrow reveal">Visual Code</p>
+        <h2 class="subheadline reveal" id="visual-title">Same code.<br />Different character.</h2>
+        <div class="style-palette" aria-label="Shared palette">
+          <span><i style="--swatch: var(--bone)" aria-hidden="true"></i>Bone Ivory</span>
+          <span><i style="--swatch: var(--ink)" aria-hidden="true"></i>Ink Black</span>
+          <span><i style="--swatch: var(--rose)" aria-hidden="true"></i>Muted Rose</span>
+          <span><i style="--swatch: var(--silver)" aria-hidden="true"></i>Steel Silver</span>
+        </div>
+      </header>
+      <div class="style-grid">
+        <article class="style-card">
+          <div class="style-portrait image-backed" data-bg-key="visualLizLine" role="img" aria-label="LIZ in a long tailored silhouette, SPUR editorial"></div>
+          <div class="style-list reveal">
+            <strong>LIZ / Line</strong>
+            <span>Long / Clean / Fluid</span>
+          </div>
+        </article>
+        <article class="style-card rei-style">
+          <div class="style-portrait image-backed" data-bg-key="visualReiTexture" role="img" aria-label="REI in a cropped layered silhouette, SPUR editorial"></div>
+          <div class="style-list reveal">
+            <strong>REI / Texture</strong>
+            <span>Cropped / Layered / Tactile</span>
+          </div>
+        </article>
+        <div class="style-rules reveal" aria-label="Visual code operating rules">
+          <div class="style-rule">
+            <span>Shared Code</span>
+            <strong>One palette. Two executions.</strong>
+          </div>
+          <div class="style-rule">
+            <span>LIZ execution</span>
+            <strong>Long line. Clean lift.</strong>
+          </div>
+          <div class="style-rule">
+            <span>REI execution</span>
+            <strong>Cropped texture. Hook detail.</strong>
+          </div>
+          <div class="style-rule">
+            <span>Pair rule</span>
+            <strong>Never mirrored. Always connected.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene stage" id="stage" aria-labelledby="stage-title">
+      <div class="stage-grid">
+        <div>
+          <p class="eyebrow reveal">Stage First</p>
+          <h2 class="headline reveal" id="stage-title">Concert first.</h2>
+          <p class="copy-l reveal" style="margin-top: 22px;">Reveal. Watch. Decide.</p>
+          <p class="kicker reveal" style="margin-top: 20px;">
+            No album commitment before the signal.
+          </p>
+        </div>
+        <div>
+          <div class="stage-photo image-backed reveal" data-bg-key="stagePair" aria-hidden="true"></div>
+          <div class="stage-lines reveal" aria-label="Parallel stage lines converging">
+            <span class="stage-line left" aria-hidden="true"></span>
+            <span class="stage-line right" aria-hidden="true"></span>
+            <span class="stage-platform" aria-hidden="true"></span>
+          </div>
+          <div class="pilot-board reveal" aria-label="Concert pilot protocol">
+            <div class="pilot-step">
+              <span>01</span>
+              <strong>Unreleased stage</strong>
+              <p>Open as a special unit moment inside the tour.</p>
+            </div>
+            <div class="pilot-step">
+              <span>02</span>
+              <strong>Official clip</strong>
+              <p>Seed one vertical hook cut after fan clips begin.</p>
+            </div>
+            <div class="pilot-step">
+              <span>03</span>
+              <strong>72h read</strong>
+              <p>Track velocity, sentiment, and release demand.</p>
+            </div>
+            <div class="pilot-step">
+              <span>04</span>
+              <strong>Go / hold</strong>
+              <p>Release only when the same signal repeats.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene loop" id="loop" aria-labelledby="loop-title">
+      <div>
+        <p class="eyebrow reveal">Release Loop / Proposed decision gate</p>
+        <h2 class="headline reveal" id="loop-title">Release only after the signal repeats.</h2>
+        <div class="loop-layout">
+          <div class="loop-main">
+            <div class="loop-track reveal" aria-label="Concert to unit IP release loop">
+              <div class="loop-step">
+                <span class="loop-no">01</span>
+                <span class="loop-word">Concert</span>
+              </div>
+              <div class="loop-step">
+                <span class="loop-no">02</span>
+                <span class="loop-word">Fancam</span>
+              </div>
+              <div class="loop-step">
+                <span class="loop-no">03</span>
+                <span class="loop-word">Social</span>
+              </div>
+              <div class="loop-step">
+                <span class="loop-no">04</span>
+                <span class="loop-word">Demand</span>
+              </div>
+              <div class="loop-step">
+                <span class="loop-no">05</span>
+                <span class="loop-word">Release</span>
+              </div>
+              <div class="loop-step">
+                <span class="loop-no">06</span>
+                <span class="loop-word">Unit IP</span>
+              </div>
+            </div>
+            <div class="signal-gate reveal" aria-label="Fan response signal gate">
+              <div class="signal-title">
+                <span>Go / No-Go</span>
+                <strong>Signal Gate</strong>
+              </div>
+              <div class="signal-list">
+                <div class="signal-item">Hook reuse</div>
+                <div class="signal-item">Pair keyword growth</div>
+                <div class="signal-item">Release requests</div>
+              </div>
+            </div>
+            <div class="signal-thresholds reveal" aria-label="Minimum release signal shape">
+              <div class="threshold-title">
+                <span>Evidence checks</span>
+                <strong>Pass all four.</strong>
+              </div>
+              <div class="threshold-item">
+                <span>01</span>
+                <strong>72h / 7d</strong>
+                <p>Read each 72-hour window. Recheck at day seven.</p>
+              </div>
+              <div class="threshold-item">
+                <span>02</span>
+                <strong>2+ markets</strong>
+                <p>Pickup repeats outside one local pocket.</p>
+              </div>
+              <div class="threshold-item">
+                <span>03</span>
+                <strong>Organic only</strong>
+                <p>Exclude paid reach, repost loops, and group-only mentions.</p>
+              </div>
+              <div class="threshold-item">
+                <span>04</span>
+                <strong>Matched base</strong>
+                <p>Compare with five similar clips on the same channel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="decision-rule reveal" aria-label="Release decision rule">
+            <div class="loop-photo image-backed" data-bg-key="loopPair" aria-hidden="true"></div>
+            <div class="decision-copy">
+              <span>Decision Rule</span>
+              <strong>Three signals. Two markets. One release.</strong>
+            </div>
+            <div class="decision-outcomes">
+              <div class="decision-outcome">
+                <span>Go</span>
+                <div>
+                  <strong>Release the digital single.</strong>
+                  <p>All three clear their baseline in two markets.</p>
+                </div>
+              </div>
+              <div class="decision-outcome">
+                <span>Hold</span>
+                <div>
+                  <strong>Keep it tour-only.</strong>
+                  <p>Reaction stays local, one-channel, or group-hype driven.</p>
+                </div>
+              </div>
+              <div class="decision-outcome">
+                <span>Build</span>
+                <div>
+                  <strong>Commission the second demo.</strong>
+                  <p>Pair demand is strong, but song response is mixed.</p>
+                </div>
+              </div>
+            </div>
+            <a class="brief-link" href="briefs.html#pilot">Pilot protocol &amp; measurement &#8599;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene end" aria-labelledby="end-title">
+      <div class="end-photo image-backed" data-bg-key="endPair" role="img" aria-label="LIZ and REI together, Maison Valentino ambassador portrait"></div>
+      <div class="end-lockup">
+        <p class="eyebrow reveal">IVE Artist Strategy Proposal</p>
+        <h2 class="headline reveal" id="end-title">
+          Make the pair<br />
+          an owned IP.
+        </h2>
+        <div class="pair-lockup reveal">
+          <span>LIZ</span>
+          <span class="slashes" aria-hidden="true"></span>
+          <span>REI</span>
+        </div>
+        <div class="end-route reveal" aria-label="Artist strategy closing route">
+          <div class="end-step">
+            <span>Discover</span>
+            <div>
+              <strong>Existing pair asset</strong>
+              <p>Editorial, recording, and fashion proof already exist.</p>
+            </div>
+          </div>
+          <div class="end-step">
+            <span>Test</span>
+            <div>
+              <strong>Concert-first demand</strong>
+              <p>Stage response decides the release path.</p>
+            </div>
+          </div>
+          <div class="end-step">
+            <span>Own</span>
+            <div>
+              <strong>Repeatable unit IP</strong>
+              <p>The pair becomes a Starship format.</p>
+            </div>
+          </div>
+        </div>
+        <p class="copy-l reveal">SAME SIDE</p>
+        <p class="proposal-credit">YOOYOUNG / Independent artist strategy portfolio<br />Proposed project. Evidence reviewed 22 Sep 2026.</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="source-drawer" id="sources" aria-label="Sources" aria-hidden="true" inert>
+    <div class="source-head">
+      <h2>Sources</h2>
+      <button class="source-close" type="button" aria-label="Close sources panel">&times;</button>
+    </div>
+    <ul class="source-list">
+      <li>
+        <a href="https://spur.hpplus.jp/magazine/202412/3A6Z7g/" target="_blank" rel="noreferrer">
+          <strong>SPUR / 2024</strong>
+          REI and LIZ December 2024 cover feature.
+        </a>
+      </li>
+      <li>
+        <a href="https://spur.hpplus.jp/culture/topics/2024-11-23-r-Vk2Q/" target="_blank" rel="noreferrer">
+          <strong>SPUR Culture / 2024</strong>
+          Editorial feature defining the pair through words, styling, and linked fashion codes.
+        </a>
+      </li>
+      <li>
+        <a href="https://sp.universal-music.co.jp/matsuda-seiko/45th/tribute/" target="_blank" rel="noreferrer">
+          <strong>Seiko Matsuda 45th Tribute</strong>
+          `Rock'n Rouge / REI & LIZ (IVE)` official tribute listing.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.koreajoongangdaily.com/entertainment/ives-rei-liz-named-maison-valentino-brand-ambassadors/12074595" target="_blank" rel="noreferrer">
+          <strong>Korea JoongAng Daily / 2026</strong>
+          Rei and Liz named Maison Valentino brand ambassadors.
+        </a>
+      </li>
+      <li>
+        <a href="https://prtimes.jp/main/html/rd/p/000000257.000101366.html" target="_blank" rel="noreferrer">
+          <strong>Valentino Japan / 2026</strong>
+          Maison Valentino brand ambassador appointment announcement.
+        </a>
+      </li>
+      <li>
+        <a href="https://prtimes.jp/main/html/rd/p/000000280.000101366.html" target="_blank" rel="noreferrer">
+          <strong>Valentino Japan / 2026</strong>
+          Valentino Japan press release featuring REI and LIZ.
+        </a>
+      </li>
+      <li>
+        <a href="https://ive-official.jp/mob/news/diarKijiShw.php?id=303477&ima=0346&site=DIVE" target="_blank" rel="noreferrer">
+          <strong>IVE Japan / REVIVE+</strong>
+          Official tracklist including all six solo tracks.
+        </a>
+      </li>
+      <li>
+        <a href="https://news.livenationentertainment.com/news/k-pop-superstars-ive-reveal-north-america-and-asia-dates-on-world-tour" target="_blank" rel="noreferrer">
+          <strong>Live Nation / SHOW WHAT I AM</strong>
+          Tour expansion and launch context.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.livenation.com/artist/K8vZ917QF9f/ive-events" target="_blank" rel="noreferrer">
+          <strong>Live Nation / IVE Events</strong>
+          SHOW WHAT I AM event listings and tour page.
+        </a>
+      </li>
+      <li>
+        <a href="https://www.mnetplus.world/contents/en/stages/ivetaipei-livestreaming" target="_blank" rel="noreferrer">
+          <strong>Mnet Plus / Taipei Livestream</strong>
+          Live-streamed tour touchpoint for response monitoring context.
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <script src="assets/images.js"></script>
+  <script>
+    const sourceToggle = document.querySelector(".source-toggle");
+    const sourceDrawer = document.querySelector("#sources");
+    const sourceClose = document.querySelector(".source-close");
+    const params = new URLSearchParams(window.location.search);
+    const defaultAssetMap = window.SAME_SIDE_IMAGES || {};
+
+    const applyAssets = (assetMap = {}) => {
+      const combinedAssets = { ...defaultAssetMap, ...assetMap };
+
+      document.querySelectorAll("[data-bg-key]").forEach((el) => {
+        const key = el.getAttribute("data-bg-key");
+        const asset = combinedAssets[key];
+        const src = typeof asset === "string" ? asset : asset?.src;
+        if (!src) return;
+
+        const img = new Image();
+        img.onload = () => {
+          el.style.setProperty("--bg-url", `url("${src}")`);
+          if (asset?.position) {
+            el.style.setProperty("--bg-position", asset.position);
+          }
+          if (asset?.mobilePosition) {
+            el.style.setProperty("--bg-mobile-position", asset.mobilePosition);
+          }
+          if (asset?.size) {
+            el.style.setProperty("--bg-size", asset.size);
+          }
+          el.classList.add("has-image");
+          if (asset?.credit && !el.querySelector(".asset-credit")) {
+            const credit = document.createElement("span");
+            credit.className = "asset-credit";
+            credit.textContent = asset.credit;
+            el.appendChild(credit);
+          }
+        };
+        img.src = src;
+      });
+    };
+
+    if (params.get("assets") === "candidates" && window.location.protocol !== "file:") {
+      fetch("assets/manifest.candidates.json")
+        .then((response) => (response.ok ? response.json() : {}))
+        .then((assetMap) => applyAssets(assetMap))
+        .catch(() => applyAssets());
+    } else {
+      applyAssets();
+    }
+
+    const setSourcesOpen = (isOpen) => {
+      if (!isOpen && sourceDrawer.contains(document.activeElement)) sourceToggle.focus();
+      sourceDrawer.inert = !isOpen;
+      sourceDrawer.setAttribute("aria-hidden", String(!isOpen));
+      sourceDrawer.classList.toggle("open", isOpen);
+      sourceToggle.setAttribute("aria-expanded", String(isOpen));
+      if (isOpen) requestAnimationFrame(() => {
+        if (sourceDrawer.classList.contains("open")) sourceClose.focus({ preventScroll: true });
+      });
+    };
+
+    sourceToggle.addEventListener("click", () => {
+      setSourcesOpen(!sourceDrawer.classList.contains("open"));
+    });
+
+    sourceDrawer.addEventListener("transitionend", (event) => {
+      if (event.propertyName === "transform" && sourceDrawer.classList.contains("open") && document.activeElement === sourceToggle) {
+        sourceClose.focus({ preventScroll: true });
+      }
+    });
+
+    sourceClose.addEventListener("click", () => {
+      setSourcesOpen(false);
+      sourceToggle.focus();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && sourceDrawer.classList.contains("open")) {
+        setSourcesOpen(false);
+        sourceToggle.focus();
+      }
+    });
+
+    if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("motion-ready");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0, rootMargin: "0px 0px -24px 0px" }
+      );
+
+      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+    }
+  </script>
+</body>
+</html>

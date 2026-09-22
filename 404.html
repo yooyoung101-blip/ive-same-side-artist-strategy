@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAME SIDE - Return to Portfolio</title>
+  <link rel="icon" href="/ive-same-side-artist-strategy/assets/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#111111" />
+  <meta
+    name="description"
+    content="Return page for the SAME SIDE IVE LIZ // REI artist strategy portfolio."
+  />
+  <style>
+    :root {
+      --bone: #e9e3d8;
+      --ink: #111111;
+      --rose: #b98b92;
+      font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: var(--bone);
+      background: var(--ink);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100svh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      background:
+        linear-gradient(90deg, rgba(233, 227, 216, 0.08) 1px, transparent 1px) 0 0 / 8.333vw 100%,
+        var(--ink);
+      letter-spacing: 0;
+    }
+
+    main {
+      width: min(920px, 100%);
+      display: grid;
+      gap: 36px;
+      border: 1px solid rgba(233, 227, 216, 0.2);
+      padding: clamp(26px, 6vw, 72px);
+      background: rgba(17, 17, 17, 0.76);
+    }
+
+    .mark {
+      display: inline-grid;
+      grid-template-columns: 5px 5px;
+      gap: 5px;
+      width: 15px;
+      height: 32px;
+      color: var(--bone);
+      transform: skewX(-14deg);
+    }
+
+    .mark::before,
+    .mark::after {
+      content: "";
+      background: currentColor;
+    }
+
+    p,
+    h1 {
+      margin: 0;
+    }
+
+    .eyebrow {
+      color: var(--rose);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 10ch;
+      font-size: 118px;
+      line-height: 0.84;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .copy {
+      max-width: 560px;
+      color: rgba(233, 227, 216, 0.68);
+      font-size: 18px;
+      line-height: 1.45;
+    }
+
+    a {
+      width: fit-content;
+      border: 1px solid rgba(233, 227, 216, 0.42);
+      padding: 14px 18px;
+      color: var(--bone);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 18px;
+      }
+
+      main {
+        gap: 26px;
+        padding: 28px 18px;
+      }
+
+      h1 {
+        font-size: 58px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="mark" aria-hidden="true"></span>
+    <p class="eyebrow">SAME SIDE</p>
+    <h1>Return to portfolio.</h1>
+    <p class="copy">
+      This link does not point to a live section. Open the main SAME SIDE proposal from the portfolio root.
+    </p>
+    <a href="/ive-same-side-artist-strategy/">Open SAME SIDE</a>
+  </main>
+  <script>
+    if (window.location.protocol === "file:") document.querySelector("main a").href = "./";
+  </script>
+</body>
+</html>
