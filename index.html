@@ -137,6 +137,7 @@
       font: inherit;
       font-size: 13px;
       font-weight: 700;
+      text-transform: uppercase;
       cursor: pointer;
     }
 
@@ -224,8 +225,7 @@
     .contents-close:focus-visible,
     .hero-route a:focus-visible { outline: 2px solid var(--rose); outline-offset: 3px; }
 
-    .source-toggle,
-    .footer-sources {
+    .footer-contents {
       border: 1px solid currentColor;
       border-radius: 0;
       padding: 8px 12px;
@@ -1908,61 +1908,40 @@
       line-height: 1.35;
     }
 
-    .source-drawer {
-      visibility: hidden;
-      position: fixed;
-      right: 16px;
-      bottom: 16px;
-      z-index: 60;
-      width: min(560px, calc(100vw - 32px));
-      max-height: min(680px, calc(100svh - 96px));
-      overflow: auto;
-      padding: 22px;
-      background: rgba(248, 245, 239, 0.96);
-      border: 1px solid rgba(17, 17, 17, 0.18);
-      box-shadow: 0 24px 80px rgba(17, 17, 17, 0.18);
-      transform: translateY(calc(100% + 32px));
-      transition: transform 560ms var(--ease);
-    }
+    .contents-sources { margin-top: 18px; border-top: 1px solid var(--line); }
 
-    .source-drawer.open {
-      visibility: visible;
-      transform: translateY(0);
-    }
-
-    .source-head {
+    .source-toggle {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 14px;
-    }
-
-    .source-drawer h2 {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 900;
-      text-transform: uppercase;
-    }
-
-    .source-close {
-      width: 34px;
-      height: 34px;
-      border: 1px solid rgba(17, 17, 17, 0.28);
-      border-radius: 0;
-      display: grid;
-      place-items: center;
+      width: 100%;
+      min-height: 54px;
+      padding: 14px 0;
+      border: 0;
       background: transparent;
-      color: var(--ink);
-      font-size: 24px;
-      line-height: 1;
+      color: inherit;
+      font: inherit;
+      font-size: 12px;
+      font-weight: 800;
+      text-align: left;
       cursor: pointer;
     }
 
+    .source-toggle .nav-icon { transition: transform 360ms var(--ease); }
+    .contents-sources.open .source-toggle .nav-icon { transform: rotate(180deg); }
+    .sources-reveal {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      visibility: hidden;
+      transition: grid-template-rows 400ms var(--ease), opacity 300ms ease, visibility 0s 400ms;
+    }
+    .contents-sources.open .sources-reveal { grid-template-rows: 1fr; opacity: 1; visibility: visible; transition-delay: 0s; }
+    .source-panel { min-height: 0; overflow: hidden; }
+
     .source-toggle:focus-visible,
-    .footer-sources:focus-visible,
+    .footer-contents:focus-visible,
     .end-links a:focus-visible,
-    .source-close:focus-visible,
     .source-list a:focus-visible {
       outline: 2px solid var(--rose);
       outline-offset: 3px;
@@ -2300,10 +2279,6 @@
         display: none;
       }
 
-      .source-toggle {
-        padding: 7px 10px;
-      }
-
       .scene {
         padding: 82px 18px;
       }
@@ -2590,19 +2565,16 @@
       <span class="slashes" aria-hidden="true"></span>
       <span>SAME SIDE</span>
     </a>
-    <nav class="navigation-tools" aria-label="장면 이동" lang="ko">
-      <button class="contents-toggle" type="button" aria-controls="contents" aria-expanded="false" aria-haspopup="dialog">
-        <svg class="nav-icon" aria-hidden="true"><use href="#icon-list"/></svg>
-        <span>목차</span>
-      </button>
-      <div class="scene-readout" aria-label="현재 장면"><span class="scene-count">00 / 10</span><span class="scene-name">Hero</span></div>
+    <nav class="navigation-tools" aria-label="Scene navigation">
+      <div class="scene-readout" aria-label="Current scene"><span class="scene-count">00 / 10</span><span class="scene-name">Hero</span></div>
       <div class="scene-controls">
-        <a class="scene-arrow scene-previous" aria-label="이전 장면" title="이전 장면" aria-disabled="true" tabindex="-1"><svg class="nav-icon" aria-hidden="true"><use href="#icon-up"/></svg></a>
-        <a class="scene-arrow scene-next" href="#proof" aria-label="다음 장면: Proof" title="다음 장면: Proof"><svg class="nav-icon" aria-hidden="true"><use href="#icon-down"/></svg></a>
+        <a class="scene-arrow scene-previous" aria-label="Previous scene" title="Previous scene" aria-disabled="true" tabindex="-1"><svg class="nav-icon" aria-hidden="true"><use href="#icon-up"/></svg></a>
+        <a class="scene-arrow scene-next" href="#proof" aria-label="Next scene: Proof" title="Next scene: Proof"><svg class="nav-icon" aria-hidden="true"><use href="#icon-down"/></svg></a>
       </div>
     </nav>
-    <button class="source-toggle" type="button" aria-controls="sources" aria-expanded="false">
-      Sources
+    <button class="contents-toggle" data-contents-toggle type="button" aria-controls="contents" aria-expanded="false" aria-haspopup="dialog">
+      <svg class="nav-icon" aria-hidden="true"><use href="#icon-list"/></svg>
+      <span>CONTENTS</span>
     </button>
   </header>
 
@@ -3214,38 +3186,35 @@
         <p class="proposal-credit">YOOYOUNG / Independent artist strategy portfolio<br />Proposed project. Evidence reviewed 22 Sep 2026.</p>
         <div class="end-links">
           <a href="#top">Back to top &#8593;</a>
-          <button class="footer-sources" type="button" aria-controls="sources" aria-expanded="false">Sources</button>
+          <button class="footer-contents" data-contents-toggle type="button" aria-controls="contents" aria-expanded="false" aria-haspopup="dialog">CONTENTS</button>
         </div>
       </div>
     </section>
   </main>
 
-  <dialog class="contents-dialog" id="contents" aria-labelledby="contents-title" lang="ko">
+  <dialog class="contents-dialog" id="contents" aria-labelledby="contents-title">
     <div class="contents-head">
-      <h2 id="contents-title">목차</h2>
-      <button class="contents-close" type="button" aria-label="목차 닫기" title="목차 닫기"><svg class="nav-icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
+      <h2 id="contents-title">CONTENTS</h2>
+      <button class="contents-close" type="button" aria-label="Close contents" title="Close contents"><svg class="nav-icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
     </div>
-    <nav class="contents-grid" aria-label="전체 장면">
-      <a href="#top"><span>00</span><div><strong>HERO</strong><small>SAME SIDE 프로젝트</small></div></a>
-      <a href="#proof"><span>01</span><div><strong>PROOF</strong><small>이미 축적된 페어 자산</small></div></a>
-      <a href="#white-space"><span>02</span><div><strong>WHITE SPACE</strong><small>오리지널 유닛의 기회</small></div></a>
-      <a href="#why-them"><span>03</span><div><strong>WHY THEM</strong><small>서로 다른 음악적 역할</small></div></a>
-      <a href="#why-now"><span>04</span><div><strong>WHY NOW</strong><small>솔로에서 페어로 확장할 시점</small></div></a>
+    <nav class="contents-grid" aria-label="All scenes">
+      <a href="#top"><span>00</span><div><strong>HERO</strong><small>Project overview</small></div></a>
+      <a href="#proof"><span>01</span><div><strong>PROOF</strong><small>Editorial / Music / Fashion</small></div></a>
+      <a href="#white-space"><span>02</span><div><strong>WHITE SPACE</strong><small>An original unit opportunity</small></div></a>
+      <a href="#why-them"><span>03</span><div><strong>WHY THEM</strong><small>Two distinct musical roles</small></div></a>
+      <a href="#why-now"><span>04</span><div><strong>WHY NOW</strong><small>From solo color to pair IP</small></div></a>
       <a href="#song"><span>05</span><div><strong>THE SONG</strong><small>VELVET 2-STEP POP</small></div></a>
-      <a href="#demo"><span>06</span><div><strong>DEMO REQUEST</strong><small>작곡가에게 보낼 수급 브리프</small></div></a>
-      <a href="#visual"><span>07</span><div><strong>VISUAL CODE</strong><small>같은 코드, 다른 캐릭터</small></div></a>
-      <a href="#stage"><span>08</span><div><strong>STAGE FIRST</strong><small>콘서트에서 시작하는 파일럿</small></div></a>
-      <a href="#loop"><span>09</span><div><strong>RELEASE LOOP</strong><small>팬 반응에서 발매 결정까지</small></div></a>
-      <a href="#end"><span>10</span><div><strong>END</strong><small>반복 가능한 유닛 IP</small></div></a>
+      <a href="#demo"><span>06</span><div><strong>DEMO REQUEST</strong><small>Producer-facing supply brief</small></div></a>
+      <a href="#visual"><span>07</span><div><strong>VISUAL CODE</strong><small>Same code. Different character.</small></div></a>
+      <a href="#stage"><span>08</span><div><strong>STAGE FIRST</strong><small>Concert-first pilot</small></div></a>
+      <a href="#loop"><span>09</span><div><strong>RELEASE LOOP</strong><small>Fan response to release</small></div></a>
+      <a href="#end"><span>10</span><div><strong>END</strong><small>Repeatable unit IP</small></div></a>
     </nav>
-    <div class="contents-appendix"><a href="briefs.html#demo">A&amp;R 상세 브리프 &#8599;</a><a href="briefs.html#pilot">파일럿 운영·측정 &#8599;</a></div>
-  </dialog>
-
-  <aside class="source-drawer" id="sources" aria-label="Sources" aria-hidden="true" inert>
-    <div class="source-head">
-      <h2>Sources</h2>
-      <button class="source-close" type="button" aria-label="Close sources panel">&times;</button>
-    </div>
+    <div class="contents-appendix"><a href="briefs.html#demo">A&amp;R production brief &#8599;</a><a href="briefs.html#pilot">Pilot protocol &#8599;</a></div>
+    <section class="contents-sources" aria-label="Source references">
+      <button class="source-toggle" type="button" aria-controls="sources" aria-expanded="false">SOURCES<svg class="nav-icon" aria-hidden="true"><use href="#icon-down"/></svg></button>
+      <div class="sources-reveal">
+      <div class="source-panel" id="sources" aria-hidden="true" inert>
     <ul class="source-list">
       <li>
         <a href="https://spur.hpplus.jp/magazine/202412/3A6Z7g/" target="_blank" rel="noreferrer">
@@ -3308,19 +3277,21 @@
         </a>
       </li>
     </ul>
-  </aside>
+      </div>
+      </div>
+    </section>
+  </dialog>
 
   <script src="assets/images.js"></script>
   <script>
     const sourceToggle = document.querySelector(".source-toggle");
-    const sourceToggles = document.querySelectorAll('[aria-controls="sources"]');
-    let sourceReturnFocus = sourceToggle;
-    const sourceDrawer = document.querySelector("#sources");
-    const sourceClose = document.querySelector(".source-close");
+    const sourcePanel = document.querySelector("#sources");
+    const sourceSection = document.querySelector(".contents-sources");
     const params = new URLSearchParams(window.location.search);
     const defaultAssetMap = window.SAME_SIDE_IMAGES || {};
     const contentsDialog = document.querySelector("#contents");
     const contentsToggle = document.querySelector(".contents-toggle");
+    const contentsToggles = document.querySelectorAll("[data-contents-toggle]");
     const scenes = [...document.querySelectorAll("main > .scene")];
     const contentsLinks = [...document.querySelectorAll(".contents-grid a")];
     const previousScene = document.querySelector(".scene-previous");
@@ -3339,11 +3310,11 @@
         if (i === index) link.setAttribute("aria-current", "location");
         else link.removeAttribute("aria-current");
       });
-      [[previousScene, index - 1, "이전"], [nextScene, index + 1, "다음"]].forEach(([control, target, direction]) => {
+      [[previousScene, index - 1, "Previous"], [nextScene, index + 1, "Next"]].forEach(([control, target, direction]) => {
         const scene = scenes[target];
         control.setAttribute("aria-disabled", String(!scene));
         control.setAttribute("tabindex", scene ? "0" : "-1");
-        control.setAttribute("aria-label", scene ? `${direction} 장면: ${scene.dataset.sceneLabel}` : `${direction} 장면 없음`);
+        control.setAttribute("aria-label", scene ? `${direction} scene: ${scene.dataset.sceneLabel}` : `No ${direction.toLowerCase()} scene`);
         control.title = control.getAttribute("aria-label");
         if (scene) control.setAttribute("href", `#${scene.id}`);
         else control.removeAttribute("href");
@@ -3366,17 +3337,20 @@
 
     const closeContents = () => {
       contentsDialog.close();
-      contentsToggle.setAttribute("aria-expanded", "false");
+      contentsToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", "false"));
     };
 
-    contentsToggle.addEventListener("click", () => {
+    contentsToggles.forEach((toggle) => toggle.addEventListener("click", () => {
       setSourcesOpen(false);
       contentsDialog.showModal();
-      contentsToggle.setAttribute("aria-expanded", "true");
-      document.querySelector(".contents-close").focus();
-    });
+      contentsDialog.scrollTop = 0;
+      contentsToggles.forEach((button) => button.setAttribute("aria-expanded", "true"));
+      document.querySelector(".contents-close").focus({ preventScroll: true });
+    }));
     document.querySelector(".contents-close").addEventListener("click", closeContents);
-    contentsDialog.addEventListener("close", () => contentsToggle.setAttribute("aria-expanded", "false"));
+    contentsDialog.addEventListener("close", () => {
+      contentsToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", String(contentsDialog.open)));
+    });
     contentsDialog.addEventListener("click", (event) => {
       if (event.target !== contentsDialog) return;
       const bounds = contentsDialog.getBoundingClientRect();
@@ -3427,38 +3401,19 @@
     }
 
     const setSourcesOpen = (isOpen) => {
-      if (isOpen && contentsDialog.open) closeContents();
-      if (!isOpen && sourceDrawer.contains(document.activeElement)) sourceReturnFocus.focus({ preventScroll: true });
-      sourceDrawer.inert = !isOpen;
-      sourceDrawer.setAttribute("aria-hidden", String(!isOpen));
-      sourceDrawer.classList.toggle("open", isOpen);
-      sourceToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", String(isOpen)));
-      if (isOpen) requestAnimationFrame(() => {
-        if (sourceDrawer.classList.contains("open")) sourceClose.focus({ preventScroll: true });
-      });
+      if (!isOpen && sourcePanel.contains(document.activeElement)) sourceToggle.focus({ preventScroll: true });
+      sourcePanel.inert = !isOpen;
+      sourcePanel.setAttribute("aria-hidden", String(!isOpen));
+      sourceSection.classList.toggle("open", isOpen);
+      sourceToggle.setAttribute("aria-expanded", String(isOpen));
     };
-
-    sourceToggles.forEach((toggle) => {
-      toggle.addEventListener("click", () => {
-        sourceReturnFocus = toggle;
-        setSourcesOpen(!sourceDrawer.classList.contains("open"));
+    sourceToggle.addEventListener("click", () => setSourcesOpen(!sourceSection.classList.contains("open")));
+    document.querySelector(".sources-reveal").addEventListener("transitionend", (event) => {
+      if (event.propertyName !== "grid-template-rows" || !sourceSection.classList.contains("open")) return;
+      contentsDialog.scrollTo({
+        top: sourceSection.offsetTop - document.querySelector(".contents-head").offsetHeight - 16,
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"
       });
-    });
-
-    sourceDrawer.addEventListener("transitionend", (event) => {
-      if (event.propertyName === "transform" && sourceDrawer.classList.contains("open") && document.activeElement === sourceReturnFocus) {
-        sourceClose.focus({ preventScroll: true });
-      }
-    });
-
-    sourceClose.addEventListener("click", () => {
-      setSourcesOpen(false);
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && sourceDrawer.classList.contains("open")) {
-        setSourcesOpen(false);
-      }
     });
 
     if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
