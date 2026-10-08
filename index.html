@@ -72,7 +72,7 @@
     }
 
     .topbar {
-      position: fixed;
+      position: absolute;
       inset: 0 0 auto;
       z-index: 40;
       display: flex;
@@ -125,7 +125,8 @@
       text-transform: uppercase;
     }
 
-    .source-toggle {
+    .source-toggle,
+    .footer-sources {
       border: 1px solid currentColor;
       border-radius: 0;
       padding: 8px 12px;
@@ -1852,6 +1853,8 @@
     }
 
     .source-toggle:focus-visible,
+    .footer-sources:focus-visible,
+    .end-links a:focus-visible,
     .source-close:focus-visible,
     .source-list a:focus-visible {
       outline: 2px solid var(--rose);
@@ -1907,6 +1910,20 @@
       color: var(--silver);
       font-size: 12px;
       line-height: 1.6;
+    }
+
+    .end-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .end-links a {
+      padding: 8px 0;
+      border-bottom: 1px solid currentColor;
     }
 
     .reveal {
@@ -3071,6 +3088,10 @@
         </div>
         <p class="copy-l reveal">SAME SIDE</p>
         <p class="proposal-credit">YOOYOUNG / Independent artist strategy portfolio<br />Proposed project. Evidence reviewed 22 Sep 2026.</p>
+        <div class="end-links">
+          <a href="#top">Back to top &#8593;</a>
+          <button class="footer-sources" type="button" aria-controls="sources" aria-expanded="false">Sources</button>
+        </div>
       </div>
     </section>
   </main>
@@ -3147,6 +3168,8 @@
   <script src="assets/images.js"></script>
   <script>
     const sourceToggle = document.querySelector(".source-toggle");
+    const sourceToggles = document.querySelectorAll('[aria-controls="sources"]');
+    let sourceReturnFocus = sourceToggle;
     const sourceDrawer = document.querySelector("#sources");
     const sourceClose = document.querySelector(".source-close");
     const params = new URLSearchParams(window.location.search);
@@ -3195,35 +3218,36 @@
     }
 
     const setSourcesOpen = (isOpen) => {
-      if (!isOpen && sourceDrawer.contains(document.activeElement)) sourceToggle.focus();
+      if (!isOpen && sourceDrawer.contains(document.activeElement)) sourceReturnFocus.focus({ preventScroll: true });
       sourceDrawer.inert = !isOpen;
       sourceDrawer.setAttribute("aria-hidden", String(!isOpen));
       sourceDrawer.classList.toggle("open", isOpen);
-      sourceToggle.setAttribute("aria-expanded", String(isOpen));
+      sourceToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", String(isOpen)));
       if (isOpen) requestAnimationFrame(() => {
         if (sourceDrawer.classList.contains("open")) sourceClose.focus({ preventScroll: true });
       });
     };
 
-    sourceToggle.addEventListener("click", () => {
-      setSourcesOpen(!sourceDrawer.classList.contains("open"));
+    sourceToggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        sourceReturnFocus = toggle;
+        setSourcesOpen(!sourceDrawer.classList.contains("open"));
+      });
     });
 
     sourceDrawer.addEventListener("transitionend", (event) => {
-      if (event.propertyName === "transform" && sourceDrawer.classList.contains("open") && document.activeElement === sourceToggle) {
+      if (event.propertyName === "transform" && sourceDrawer.classList.contains("open") && document.activeElement === sourceReturnFocus) {
         sourceClose.focus({ preventScroll: true });
       }
     });
 
     sourceClose.addEventListener("click", () => {
       setSourcesOpen(false);
-      sourceToggle.focus();
     });
 
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && sourceDrawer.classList.contains("open")) {
         setSourcesOpen(false);
-        sourceToggle.focus();
       }
     });
 
