@@ -1,18 +1,16 @@
-/* English display titles; Korean explanations and production decisions. */
+/* English production copy and supporting diagrams. */
 body { font-family:"Helvetica Neue",Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
-p[lang="ko"], [lang="ko"] p, dd:lang(ko), li:lang(ko) { word-break:keep-all; overflow-wrap:anywhere; }
-p[lang="ko"] { line-height:1.65; letter-spacing:-.01em; }
 .hero-intro { max-width:38ch; margin:16px 0 0; font-size:16px; color:#cbc4bb; }
 .hero-route a { min-height:88px; gap:10px; }
 .hero-route .route-meaning { color:#c0b8af; font-size:12px; line-height:1.4; }
-.proof .proof-line:lang(ko) { font-size:26px; line-height:1.35; }
-.proof-verdict strong:lang(ko) { font-size:20px; line-height:1.4; word-break:keep-all; }
+.proof .proof-line { font-size:26px; line-height:1.35; }
+.proof-verdict strong { font-size:20px; line-height:1.4; word-break:normal; }
 .recording-dates { margin:16px 0; color:#c8bfc0; font-size:12px; }
 .proof-card.music-proof .proof-kind { color:#cbc4bb; font-size:12px; line-height:1.4; }
 .role-equation { position:relative; left:auto; bottom:auto; transform:none; width:min(1500px,100%); }
 .role-equation>div { min-height:174px; gap:12px; }
 .role-equation p { font-size:14px; color:#c2b9ad; }
-.role-equation strong { line-height:1.4; word-break:keep-all; }
+.role-equation strong { line-height:1.4; word-break:normal; }
 .role-words { letter-spacing:0; }
 .six-lanes { grid-template-columns:repeat(6,minmax(0,1fr)); gap:8px; min-height:0; align-items:stretch; }
 .six-lanes .solo-card { border-top:3px solid #b5afa7; padding:18px 8px; min-height:106px; display:flex; flex-direction:column; gap:12px; background:#eeeae3; }
@@ -36,7 +34,7 @@ p[lang="ko"] { line-height:1.65; letter-spacing:-.01em; }
 .visual-key-heading { font-size:13px; font-weight:750; margin-bottom:22px; }
 .visual-key-items { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
 .visual-key-items>div { display:grid; grid-template-columns:56px minmax(0,1fr); gap:10px 20px; align-items:center; min-width:0; }
-.visual-key-items strong { font-size:17px; line-height:1.4; word-break:keep-all; }
+.visual-key-items strong { font-size:17px; line-height:1.4; word-break:normal; }
 .visual-key-items p { grid-column:2; font-size:14px; color:#625a53; line-height:1.6; }
 .visual-key-swatch { display:block; width:54px; height:54px; border:1px solid #b7afa5; }
 .visual-key-swatch.ivory { background:#f5eee1; }
@@ -48,15 +46,15 @@ p[lang="ko"] { line-height:1.65; letter-spacing:-.01em; }
 .stage-cues p { font-size:15px; }
 .stage-floor svg text { font-size:23px; font-family:Arial,"Apple SD Gothic Neo",sans-serif; }
 .decision-caption { background:#111; color:#e9e3d8; padding:0 24px 26px; font-size:13px; }
-.signal-item { font-size:18px; line-height:1.4; word-break:keep-all; }
+.signal-item { font-size:18px; line-height:1.4; word-break:normal; }
 .threshold-item p,.decision-outcome p,.end-step p { font-size:14px; }
 .decision-outcome p { color:#5f574f; }
 .end-step p { color:#c1b9ad; }
 .end-route .end-step { min-height:110px; }
-.brief-link:lang(ko) { font-size:13px; line-height:1.5; }
+.brief-link { font-size:13px; line-height:1.5; }
 /* Native font fallback keeps the detailed brief readable without remote fonts. */
 body:has(#music-direction) p,body:has(#music-direction) li,body:has(#music-direction) dd { line-height:1.75; }
-.md-revisions td,.md-revisions th { word-break:keep-all; overflow-wrap:anywhere; line-height:1.65; }
+.md-revisions td,.md-revisions th { word-break:normal; overflow-wrap:anywhere; line-height:1.65; }
 @media(max-width:1100px) {
  .ml-checkpoint { grid-template-columns:140px minmax(0,1fr); }
  .ml-checkpoint a { grid-column:2; justify-self:start; }
@@ -82,7 +80,7 @@ body:has(#music-direction) p,body:has(#music-direction) li,body:has(#music-direc
  .vc-production p,.vc-look figcaption>p:last-child { font-size:14px; }
  .vc-look h3 { font-size:15px; }
  .decision-caption { padding:0 20px 24px; }
- .proof .proof-line:lang(ko) { font-size:25px; }
+ .proof .proof-line { font-size:25px; }
  .end-route .end-step { min-height:0; }
 }
 
@@ -91,3 +89,11 @@ body:has(#music-direction) p,body:has(#music-direction) li,body:has(#music-direc
 .music-lead .ml-audio-note {font-size:12px;}
 .music-lead .ml-checkpoint p {font-size:14px;}
 .ml-play {min-height:44px;}
+
+.proof-grid > *, .proof-stack > *, .proof-verdict > * { min-width:0; }
+@media(max-width:720px) {
+ .proof .headline { font-size:clamp(32px,8.8vw,58px); }
+ .proof .proof-line { font-size:clamp(20px,6vw,25px); }
+}
+
+.proof-card.photo-proof { align-items:stretch; }

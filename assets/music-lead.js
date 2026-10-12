@@ -19,7 +19,7 @@
   const duration = bar * 4;
   const frequency = midi => 440 * 2 ** ((midi - 69) / 12);
 
-  function stop(message = "4마디 · 8.4초") {
+  function stop(message = "4 bars · 8.4 seconds") {
     request += 1;
     if (pendingContext) {
       pendingContext.close().catch(() => {});
@@ -38,7 +38,7 @@
       session.context.close().catch(() => {});
     }
     button.setAttribute("aria-pressed", "false");
-    button.innerHTML = '리듬 예시 듣기 <span aria-hidden="true">&#9654;</span>';
+    button.innerHTML = 'Play production sketch <span aria-hidden="true">&#9654;</span>';
     status.textContent = message;
   }
 
@@ -126,8 +126,8 @@
       context = new AudioContextClass();
       pendingContext = context;
       button.setAttribute("aria-pressed", "true");
-      button.innerHTML = '재생 멈추기 <span aria-hidden="true">&#9632;</span>';
-      status.textContent = "재생 준비 중…";
+      button.innerHTML = 'Stop playback <span aria-hidden="true">&#9632;</span>';
+      status.textContent = "Starting playback…";
       await context.resume();
       if (token !== request || document.hidden) {
         if (pendingContext === context) pendingContext = null;
@@ -143,15 +143,15 @@
       const startTime = context.currentTime + .05;
       schedule(session, startTime);
       button.setAttribute("aria-pressed", "true");
-      button.innerHTML = '재생 멈추기 <span aria-hidden="true">&#9632;</span>';
-      status.textContent = "재생 중 · 114 BPM";
+      button.innerHTML = 'Stop playback <span aria-hidden="true">&#9632;</span>';
+      status.textContent = "Playing · 114 BPM";
       session.timer = setTimeout(() => {
-        if (active === session) stop("재생 완료 · 4마디");
+        if (active === session) stop("Playback finished · 4 bars");
       }, (duration + .08) * 1000);
     } catch (_) {
       if (pendingContext === context) pendingContext = null;
       if (context && context !== active?.context) context.close().catch(() => {});
-      if (token === request) stop("이 브라우저에서는 오디오를 재생할 수 없습니다");
+      if (token === request) stop("Audio playback is unavailable in this browser");
     }
   }
 
