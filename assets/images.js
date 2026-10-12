@@ -1,9 +1,4 @@
 window.SAME_SIDE_IMAGES = {
-  "heroSupport": {
-    "src": "assets/photos/spur-pair.webp",
-    "position": "center 18%",
-    "mobilePosition": "center 12%"
-  },
   "heroPair": {
     "src": "assets/photos/valentino-ambassadors.jpg",
     "position": "center 18%",
@@ -17,11 +12,6 @@ window.SAME_SIDE_IMAGES = {
     "src": "assets/photos/valentino-appearance.jpg",
     "position": "center 16%"
   },
-  "gapPair": {
-    "src": "assets/photos/spur-pair.webp",
-    "position": "center 18%",
-    "mobilePosition": "center 12%"
-  },
   "roleLiz": {
     "src": "assets/photos/spur-liz.webp",
     "position": "center 14%",
@@ -31,40 +21,5 @@ window.SAME_SIDE_IMAGES = {
     "src": "assets/photos/spur-rei.webp",
     "position": "68% 14%",
     "mobilePosition": "84% 56%"
-  },
-  "songPair": {
-    "src": "assets/photos/spur-pair.webp",
-    "position": "center 18%"
-  },
-  "nowPair": {
-    "src": "assets/photos/valentino-ambassadors.jpg",
-    "position": "center 18%",
-    "mobilePosition": "center 10%"
-  },
-  "demoPair": {
-    "src": "assets/photos/spur-pair.webp",
-    "position": "center 18%"
-  },
-  "visualLizLine": {
-    "src": "assets/photos/spur-liz.webp",
-    "position": "center 14%"
-  },
-  "visualReiTexture": {
-    "src": "assets/photos/spur-rei.webp",
-    "position": "58% top",
-    "mobilePosition": "center top"
-  },
-  "stagePair": {
-    "src": "assets/photos/valentino-appearance.jpg",
-    "position": "center 14%"
-  },
-  "loopPair": {
-    "src": "assets/photos/valentino-appearance.jpg",
-    "position": "center 14%"
-  },
-  "endPair": {
-    "src": "assets/photos/valentino-ambassadors.jpg",
-    "position": "center 18%",
-    "mobilePosition": "center 10%"
   }
 };

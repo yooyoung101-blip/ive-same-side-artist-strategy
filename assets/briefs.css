@@ -46,3 +46,10 @@ footer { padding: 32px 0 48px; border-top: 1px solid #aaa; font-size: 12px; line
   h2, h3 { break-after: avoid; }
   body { background: white; }
 }
+
+.brief-monogram { min-height:300px; background:#111; color:#e9e3d8; display:grid; padding:36px; align-content:space-between; }
+.brief-monogram span { color:#b98b92; font-size:72px; }
+.brief-monogram strong { font-size:52px; line-height:.85; }
+.brief-monogram small { margin-top:24px; }
+header nav { flex-wrap:wrap; }
+@media print { .brief-monogram { display:none; } }

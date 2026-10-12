@@ -1,0 +1,50 @@
+/* Original garment-flat section. Prefixes isolate it from legacy visual styles. */
+.visual-code { background: var(--bone); }
+.vc-layout { width: min(1400px, 100%); margin: auto; display: grid; grid-template-columns: .82fr 1.5fr; gap: 32px 56px; align-items: start; }
+.vc-heading { padding-top: 22px; }
+.vc-heading .subheadline { font-size: clamp(46px, 5.1vw, 78px); line-height: .95; }
+.vc-intro { max-width: 330px; margin-top: 26px; font-size: 18px; line-height: 1.45; }
+.vc-status { max-width: 300px; margin-top: 26px; color: var(--muted); font-size: 11px; line-height: 1.5; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.vc-looks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.vc-look { margin: 0; min-width: 0; }
+.vc-flat-wrap { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(244, 239, 231, .52); }
+.vc-flat { display: block; width: 100%; height: auto; max-height: 520px; }
+.vc-guide { stroke: #9c968d; stroke-width: .7; stroke-dasharray: 3 6; opacity: .3; fill: none; }
+.vc-callout-line { stroke: #857f78; stroke-width: .85; fill: none; }
+.vc-svg-label { fill: #5c5650; font: 7px Arial, sans-serif; letter-spacing: .6px; }
+.vc-svg-foot { fill: #726b62; font: 7px Arial, sans-serif; letter-spacing: 1.1px; }
+.vc-look figcaption { padding-top: 19px; }
+.vc-artist { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; font-size: 21px; font-weight: 900; }
+.vc-artist span { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.vc-look h3 { margin-top: 11px; font-size: 18px; line-height: 1.15; }
+.vc-look figcaption > p:last-child { margin-top: 9px; color: var(--muted); font-size: 14px; line-height: 1.45; }
+.vc-production { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; border-top: 1px solid var(--line); padding-top: 21px; }
+.vc-production > div { display: grid; grid-template-columns: 75px 1fr; gap: 14px; }
+.vc-production span { font-size: 11px; font-weight: 850; text-transform: uppercase; letter-spacing: .06em; }
+.vc-production p { color: var(--muted); font-size: 13px; line-height: 1.45; }
+.vc-finish { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: start; gap: 34px; }
+.vc-finish p { max-width: 830px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+.vc-finish strong { color: var(--ink); }
+.vc-finish .brief-link { flex: 0 0 auto; margin: 0; font-size: 12px; }
+@media (max-width: 980px) {
+  .vc-layout { grid-template-columns: 1fr; gap: 30px; }
+  .vc-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 30px; padding-top: 0; }
+  .vc-heading .eyebrow { grid-column: 1 / -1; }
+  .vc-heading .subheadline { grid-row: span 2; }
+  .vc-intro, .vc-status { margin-top: 0; max-width: none; }
+  .vc-production { gap: 18px; }
+  .vc-production > div { grid-template-columns: 1fr; gap: 7px; }
+  .vc-finish { flex-direction: column; gap: 18px; }
+}
+@media (max-width: 560px) {
+  .vc-heading { display: block; }
+  .vc-intro { margin-top: 22px; font-size: 16px; }
+  .vc-status { margin-top: 15px; }
+  .vc-looks { gap: 15px; }
+  .vc-artist { display: block; font-size: 20px; }
+  .vc-artist span { display: block; margin-top: 4px; }
+  .vc-look h3 { font-size: 15px; }
+  .vc-look figcaption > p:last-child { font-size: 12px; }
+  .vc-production { grid-template-columns: 1fr; gap: 16px; }
+  .vc-production > div { grid-template-columns: 77px 1fr; gap: 12px; }
+}
