@@ -72,13 +72,6 @@
 .end.end-photo-finish { grid-template-columns:1fr 1fr; }
 .end-photo-finish .end-symbol { display:flex; align-items:center; justify-content:center; padding:28px; }
 .end-photo-finish .end-symbol img { width:100%; height:auto; display:block; }
-.md-audio-preview { margin:24px 0 36px; border:1px solid #c2b6a8; padding:18px 22px; background:#f2eade; }
-.md-audio-preview summary { font-size:14px; font-weight:750; cursor:pointer; }
-.md-audio-preview .ml-audition { display:flex; flex-wrap:wrap; align-items:center; gap:18px; margin:24px 0 15px; }
-.md-audio-preview .ml-audition[hidden] { display:none; }
-.md-audio-preview .ml-play { color:#e9e3d8; background:#281f23; border-color:#281f23; }
-.md-audio-preview .ml-audio-state { color:#76605f; }
-.md-audio-preview .ml-audio-note { color:#6f6056; font-size:12px; max-width:none; }
 @media(max-width:1000px) {
  .style-moodboard { grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px; }
  .stage-wardrobe .vc-looks { gap:28px; }
@@ -130,3 +123,22 @@
 @media(max-width:720px) { .style-moodboard img { height:230px; } }
 @media(max-width:380px) { .style-moodboard img { height:auto; } }
 .stage-wardrobe .full-look { object-fit:contain; }
+
+/* One musical direction, with a primary and supporting reference. */
+.listening-reset .listening-grid { grid-template-columns:1.2fr 1fr; gap:24px; }
+.listening-reset .listening-reference { border:1px solid #b9ab9f; }
+.listening-reset .listening-reference a { height:100%; padding:32px; }
+.listening-reset .reference-primary { background:#281f23; color:#eee7dc; }
+.listening-reset .reference-primary .reference-cue { color:#d6aab8; }
+.listening-reset .reference-primary .reference-description { color:#d1c3c6; }
+.listening-reset .reference-cue { margin-top:0; }
+.listening-reset .reference-version { margin-top:8px; font-size:13px; line-height:1.5; }
+.listening-reset .listening-reference h3 { font-size:clamp(34px,4vw,58px); }
+.listening-reset .reference-description { max-width:43ch; }
+.listening-reset a:focus-visible { outline:3px solid #a96d81; outline-offset:5px; }
+.genre-scene .headline { font-size:clamp(48px,6.2vw,92px); }
+@media(max-width:720px) {
+ .listening-reset .listening-grid { grid-template-columns:1fr; }
+ .listening-reset .listening-reference a { padding:26px 22px; }
+ .genre-scene .headline { font-size:clamp(42px,11.7vw,76px); }
+}
