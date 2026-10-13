@@ -25,21 +25,6 @@ window.SAME_SIDE_IMAGES = {
   "heroWorld": {
     "src": "assets/photos/bazaar-duo-lace-red.jpg"
   },
-  "songTexture": {
-    "src": "assets/photos/bazaar-liz-texture.jpg"
-  },
-  "wardrobeContrast": {
-    "src": "assets/photos/valentino-full-look.jpg"
-  },
-  "wardrobeTailoring": {
-    "src": "assets/photos/spur-tailoring-boots.jpg"
-  },
-  "wardrobeMetal": {
-    "src": "assets/photos/wkorea-metal-bodice.jpg"
-  },
-  "wardrobeTexture": {
-    "src": "assets/photos/bazaar-rei-texture.jpg"
-  },
   "stageLive": {
     "src": "assets/photos/liz-live.jpg"
   },
@@ -52,22 +37,16 @@ window.SAME_SIDE_IMAGES = {
   "referencePinkPantheress": {
     "src": "assets/photos/reference-pinkpantheress.jpg"
   },
-  "maison01": {
-    "src": "assets/photos/maison-01.jpg"
+  "garment01": {
+    "src": "assets/photos/garment-one-shoulder.jpg"
   },
-  "maison02": {
-    "src": "assets/photos/maison-02.jpg"
+  "garment02": {
+    "src": "assets/photos/garment-fitted-bodice.jpg"
   },
-  "maison03": {
-    "src": "assets/photos/maison-03.jpg"
+  "garment03": {
+    "src": "assets/photos/garment-crystal-detail.jpg"
   },
-  "maison04": {
-    "src": "assets/photos/maison-04.jpg"
-  },
-  "maison05": {
-    "src": "assets/photos/maison-05.jpg"
-  },
-  "maison06": {
-    "src": "assets/photos/maison-06.jpg"
+  "garment04": {
+    "src": "assets/photos/garment-texture-detail.jpg"
   }
 };

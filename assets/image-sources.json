@@ -32,52 +32,12 @@
       "sha256": "a09aa7bacf40e0f637742040ded53608fd7333aa42431858605fe915516f594e"
     },
     {
-      "file": "assets/photos/valentino-full-look.jpg",
-      "source": "https://prcdn.freetls.fastly.net/release_image/101366/257/101366-257-3277bcc31222977db347ced3669432be-2160x2700.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
-      "source_page": "https://prtimes.jp/main/html/rd/p/000000257.000101366.html",
-      "kind": "editorial_reference",
-      "bytes": 148318,
-      "sha256": "c583201bbcc6a9c161261f794950468c8661e9c3008c1bdbe5ba461a9173545d"
-    },
-    {
       "file": "assets/photos/bazaar-duo-lace-red.jpg",
       "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/94a5a8e2-d404-416e-95e0-38d40b8c64ec.jpg",
       "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
       "kind": "editorial_reference",
       "bytes": 133835,
       "sha256": "08fdcebbcb3640a68433919cc33487cce89c9cb3ab686849c7d0074c4a3f14ba"
-    },
-    {
-      "file": "assets/photos/spur-tailoring-boots.jpg",
-      "source": "https://img-spur.hpplus.jp/article/parts/image/a3/a3ba0fcb-3940-49cb-b6b1-2eb5ff3e2705-1200x1550.jpg",
-      "source_page": "https://spur.hpplus.jp/culture/topics/2024-11-23-r-Vk2Q/",
-      "kind": "editorial_reference",
-      "bytes": 163170,
-      "sha256": "b881bc37de3fa9a1fd39af74c9aeff904b850ed087c6060807b24fb6e7d65614"
-    },
-    {
-      "file": "assets/photos/wkorea-metal-bodice.jpg",
-      "source": "https://www.wkorea.com//wp_data/w/2022/04/style_6264ee2fe48e3.jpg",
-      "source_page": "https://www.wkorea.com/2022/04/25/%EB%8D%94-%EB%B9%A0%EC%A0%B8-%EA%B9%8A%EC%9D%B4-%EC%95%84%EC%9D%B4%EB%B8%8C/",
-      "kind": "editorial_reference",
-      "bytes": 199760,
-      "sha256": "ddefc45bad156bf46fa50ff2b1016a1b15690100a45f877a7d4e1ff654fe74c2"
-    },
-    {
-      "file": "assets/photos/bazaar-liz-texture.jpg",
-      "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/70bee7df-5dee-40cd-a2aa-fd7112ccaadb.jpg",
-      "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
-      "kind": "editorial_reference",
-      "bytes": 111079,
-      "sha256": "74304762bf35b649681a22202c56875c29617897e3b18b71e03cf9ea6e696771"
-    },
-    {
-      "file": "assets/photos/bazaar-rei-texture.jpg",
-      "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/8d4820ef-9f85-4201-8ffd-c432687cebf5.jpg",
-      "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
-      "kind": "editorial_reference",
-      "bytes": 103872,
-      "sha256": "10e0c2a061d7d9b6770a71158fa368b8bfdaeafcd3ef68bc4fdd749aeff1dedd"
     },
     {
       "file": "assets/photos/liz-live.jpg",
@@ -112,76 +72,72 @@
       "sha256": "9947f973be7ca5e6195ab92cdc0143205d664f79c9e9788a5ca7e4a09cb3c1bb"
     },
     {
-      "file": "assets/photos/maison-01.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/731632179_17869881606626101_6959320833359445734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzMDExMDY4NTE4NzY0NDAwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=J1Zt_RuqH5cQ7kNvwEdRKUt&_nc_oc=AdpLzliaAVBB-ltZq2yGlDJTjqe42GKS56KcJ36PNK_kz6P_1hMSq1j3mSV1957eTSc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQPYbAKhPV5yvtkOgconlre1uM59ld2MYs95GVSPZjXfjg&oe=6AD492F0",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / MEGA CONCERT 2026 / JIWOO",
+      "file": "assets/photos/garment-fitted-bodice.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/604764940_17846955744626101_8272237343959353748_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc5Mzk0MTIyNzc0NzA5OTQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3z57C_GckH4Q7kNvwGRpO8u&_nc_oc=AdrqGb79AOgZ_q5Rrdyw0lbIGFheVKlDb678_wDgovyFzF2ivqTB4jF-SSvFDrU-QDI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=tbVVtvNivzsUqlAH-UYY4A&_nc_ss=7a22e&oh=00_AQM8tVIf20PVTRek3MAipAgdub-WBtsA53H_ZM6fohkcww&oe=6AD49E1A",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DSmyXWpEx-F/?img_index=3",
+      "credit": "Maison de VYNN",
       "retrieved": "2026-10-14",
-      "bytes": 313604,
-      "sha256": "6809547b3da5e0ae2c0c3e10124fd3011330d71c93798b5475fc0dd612ab1908",
-      "original_sha256": "d81bf915c0bf1221084f73745025dfa8985ca0e670bae826e9a3a1cf150d9b4b",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+      "processing": "Garment photograph cropped from the designer board at user request; performer photographs and drawings excluded.",
+      "crop_box": [
+        492,
+        230,
+        902,
+        970
+      ],
+      "original_sha256": "b30b76a127f3d0d464b3e6c41402bd74a95cbeec754b358aa3da82ac78600484",
+      "sha256": "9f0fa78a5e55706a96322adf84a717a57aa4f8fc98fb01c69cc1772e082f9353",
+      "bytes": 81828
     },
     {
-      "file": "assets/photos/maison-02.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/732571848_17869881609626101_1200677238416984656_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkzMDExMDY4NTA1MzQ0MzM2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-MLTa_wJUb0Q7kNvwEy4TH9&_nc_oc=Adq-lyQfRc2rLwji5RzOpNj__YxYg6puiMWYlAHdORzteDasyc2ekOHCYSKUiZymaq8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQMI61SgCp_fU19OvS9n-L9-utfurNTSMsrcRmAGvR_OMA&oe=6AD49C21",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/?img_index=2",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / MEGA CONCERT 2026 / YE-ON",
+      "file": "assets/photos/garment-texture-detail.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/604764940_17846955744626101_8272237343959353748_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc5Mzk0MTIyNzc0NzA5OTQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3z57C_GckH4Q7kNvwGRpO8u&_nc_oc=AdrqGb79AOgZ_q5Rrdyw0lbIGFheVKlDb678_wDgovyFzF2ivqTB4jF-SSvFDrU-QDI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=tbVVtvNivzsUqlAH-UYY4A&_nc_ss=7a22e&oh=00_AQM8tVIf20PVTRek3MAipAgdub-WBtsA53H_ZM6fohkcww&oe=6AD49E1A",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DSmyXWpEx-F/?img_index=3",
+      "credit": "Maison de VYNN",
       "retrieved": "2026-10-14",
-      "bytes": 375535,
-      "sha256": "76905e64e953d69b2077f8e6eaf741081b8b28ace6096aa8121288cbffe505ec",
-      "original_sha256": "709fd93395305a11f4d3f0a45c4947d24d7ef40a132fb978f3f4fb545643371d",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+      "processing": "Garment photograph cropped from the designer board at user request; performer photographs and drawings excluded.",
+      "crop_box": [
+        922,
+        188,
+        1374,
+        940
+      ],
+      "original_sha256": "b30b76a127f3d0d464b3e6c41402bd74a95cbeec754b358aa3da82ac78600484",
+      "sha256": "1e2b6fa4da559ea8028dbe63016fe6d906b966c1f22f3feb5a1f1b32d5b7f0e0",
+      "bytes": 114277
     },
     {
-      "file": "assets/photos/maison-03.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/729889297_17869881558626101_866781930718770506_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzMDExMDY4NDk3NzkxMDUwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Al6PE199cVEQ7kNvwEmaN24&_nc_oc=AdpZlUZ7Swq8Dq3Dz92TKuUX7erFhjUFKd61nBvMCy9deUQ9ujp8TjSlJ0aJCXo0R8Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQOQnTCUbpq7FfRgloZJaJ67tpV8rtyLk94I8j5H5I9JZg&oe=6AD4767C",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/?img_index=3",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / MEGA CONCERT 2026 / A-NA",
+      "file": "assets/photos/garment-one-shoulder.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/604733020_17846955765626101_3135158885870505600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc5Mzk0MTIyNzU3MDk1NjA1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2BjkyxwW4L0Q7kNvwEXlb-J&_nc_oc=Ado6H219iYWw2IaqEXoXs6x1cHtMF3ZtSiUIFYjQEzI3-B2skPikqm-ltjOnyuM9PWQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=IN4FYMs86afBZJViHvmq_w&_nc_ss=7a22e&oh=00_AQMC2WRH_ApPCG2suOM-X_haDrytCuzIdHZriwKPM_8l0Q&oe=6AD47681",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DSmyXWpEx-F/?img_index=5",
+      "credit": "Maison de VYNN",
       "retrieved": "2026-10-14",
-      "bytes": 321758,
-      "sha256": "e7404f7018a00205e7c10dc0259951d2303428348d8c1c41bf474b2d3eba56b3",
-      "original_sha256": "3a94d74656695652580e4d9c3648a5ed4301576c7e2283da2e25b2f418ac4704",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+      "processing": "Garment photograph cropped from the designer board at user request; performer photographs and drawings excluded.",
+      "crop_box": [
+        875,
+        170,
+        1355,
+        990
+      ],
+      "original_sha256": "043b20dc6c69994fcf9a57d411fdd30ba76bce22189151e014962e52fe58955c",
+      "sha256": "58f53ba368ecd4b3ac8c420c89c7bedc2b7f53261312a3c427b49890265c4732",
+      "bytes": 116469
     },
     {
-      "file": "assets/photos/maison-04.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/707445632_17865413061626101_4068174109945072871_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNDc3OTA4MjQzNzcwMzI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rrL_vsRV7HgQ7kNvwHLL2LS&_nc_oc=Adpqx3dnzXcRM2kX9j5JAvHqJvv9x0Z12h_LhOrLjbMdoMpaxBG-3pBdm-KmahEg-zw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=bmStd372DWdfY9kao3dJ1g&_nc_ss=7a22e&oh=00_AQMc4D-s-m6un7utLgK_NNeLolm9oMR5qe8mgXzIJph34w&oe=6AD49B14",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj-ZVkwR2/",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / ASEA 2026 / collection",
+      "file": "assets/photos/garment-crystal-detail.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/604733020_17846955765626101_3135158885870505600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc5Mzk0MTIyNzU3MDk1NjA1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2BjkyxwW4L0Q7kNvwEXlb-J&_nc_oc=Ado6H219iYWw2IaqEXoXs6x1cHtMF3ZtSiUIFYjQEzI3-B2skPikqm-ltjOnyuM9PWQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=IN4FYMs86afBZJViHvmq_w&_nc_ss=7a22e&oh=00_AQMC2WRH_ApPCG2suOM-X_haDrytCuzIdHZriwKPM_8l0Q&oe=6AD47681",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DSmyXWpEx-F/?img_index=5",
+      "credit": "Maison de VYNN",
       "retrieved": "2026-10-14",
-      "bytes": 473767,
-      "sha256": "d4b1172c0a226521df51790ea6b47778a26602cf76520ae5b3c2025db511a1d4",
-      "original_sha256": "673b8a2c2f12286a8034b520422c6380eac9ccccdd53bb986ea6b79098643f8d",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
-    },
-    {
-      "file": "assets/photos/maison-05.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/706102093_17865412884626101_5431650132310517353_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNDc3ODQ0Mzg5NjkwNzQ1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jCwRCibyRiQQ7kNvwG00gZU&_nc_oc=AdrtwcxaftNz66_ZMw2Lz1huHO-MUi0GYYA2AH--yKPRa0SFdYrZ25tvCPYvbWbeTYw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=f40OolrtJagkka5LuigPIg&_nc_ss=7a22e&oh=00_AQNFozNjlZRxs369sPrxEu4H14Ichkec5BcebRFsIKba_A&oe=6AD47948",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj1JAE214/",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / ASEA 2026 / A-NA",
-      "retrieved": "2026-10-14",
-      "bytes": 385972,
-      "sha256": "072eb425fa9f6cb0b3ccc5af9ad9693f5b78b12e161030217a126ae3ca825079",
-      "original_sha256": "5ceb6772e395472dcf9b119b7dcfc139b894397771582556a04e35332f8076c4",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
-    },
-    {
-      "file": "assets/photos/maison-06.jpg",
-      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/707816124_17865412866626101_7351110363456070347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNDc3ODQ0Mzc3MTAzMDk2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5HwTg9lEm-YQ7kNvwFenTbz&_nc_oc=Adok9LllmDrO8bwFjxHW9mVMmca7lhpFn7fLBkEPT82P4uRxQwuwvKIDhgQIxVBOB7M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=f40OolrtJagkka5LuigPIg&_nc_ss=7a22e&oh=00_AQO7DmWNdev9tT4MIpczEoemgFYejo1Rj4H_GBtTm2Qbiw&oe=6AD49DB4",
-      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj1JAE214/?img_index=2",
-      "credit": "Maison de VYNN; photographer marks retained in original board",
-      "label": "Hearts2Hearts / ASEA 2026 / STELLA",
-      "retrieved": "2026-10-14",
-      "bytes": 326572,
-      "sha256": "f2e6989036bcea13d9c176ccdb4217a36807fefee5c71f80c6f09a3a01019ffa",
-      "original_sha256": "e9ee492ae4bd0528e5aac9b86d53c4aa3991a004cc05b00b05d00e9d560233ba",
-      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+      "processing": "Garment photograph cropped from the designer board at user request; performer photographs and drawings excluded.",
+      "crop_box": [
+        405,
+        680,
+        850,
+        1090
+      ],
+      "original_sha256": "043b20dc6c69994fcf9a57d411fdd30ba76bce22189151e014962e52fe58955c",
+      "sha256": "0c776e3eaf49221999bf50d511e9f57be5d382aaa4a4ba6beea0dd8f955bd13f",
+      "bytes": 54447
     }
   ],
   "updated": "2026-10-14"

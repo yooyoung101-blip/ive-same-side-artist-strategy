@@ -55,73 +55,13 @@
   line-height: 1.65;
 }
 
-#visual .styling-archive {
-  margin-top: 36px;
-  padding: 20px 0;
-  border-top: 1px solid #b4a799;
-  border-bottom: 1px solid #b4a799;
-}
 
-#visual .styling-archive > summary {
-  cursor: pointer;
-  font: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.5;
-  overflow-wrap: break-word;
-}
-
-#visual .styling-archive > summary:focus-visible {
-  outline: 2px solid #592331;
-  outline-offset: 5px;
-}
-
-#visual .styling-archive > p {
-  max-width: 75ch;
-  margin: 18px 0 0;
-  color: #6a5e55;
-  font-size: 13px;
-  line-height: 1.65;
-}
-
-#visual .archive-photo-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  align-items: start;
-  gap: 18px;
-  margin-top: 22px;
-}
-
-#visual .archive-photo-grid > figure {
-  min-width: 0;
-  margin: 0;
-}
-
-#visual .archive-photo-grid img {
-  display: block;
-  width: 100%;
-  height: 220px;
-  max-height: 220px;
-  object-fit: contain;
-  background: #e3dbd1;
-}
-
-#visual .archive-photo-grid figcaption {
-  margin-top: 12px;
-  color: #6a5e55;
-  font-size: 11px;
-  line-height: 1.6;
-  overflow-wrap: break-word;
-}
-
-
-#visual .maison-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px;margin:36px 0 0}
-#visual .maison-card{margin:0;min-width:0}
-#visual .maison-card>a{display:block}
-#visual .maison-card img{display:block;width:100%;height:auto;background:#eee}
-#visual .maison-card figcaption{padding-top:18px}
-#visual .maison-card h3{font-size:25px;line-height:1.2;margin:0 0 8px}
-#visual .maison-card p{font-size:13px;line-height:1.6;color:#6a5e55}
-#visual .maison-card figcaption>a{display:inline-block;margin-top:12px;font-size:12px;text-decoration:underline;text-underline-offset:4px}
-@media(max-width:720px){#visual .maison-board{grid-template-columns:minmax(0,1fr);gap:36px}#visual .archive-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#song .song-dialogue-panel{padding:28px 24px}#song .song-dialogue-panel .dialogue-line{font-size:clamp(29px,7vw,46px)}}
-@media(max-width:380px){#visual .archive-photo-grid{grid-template-columns:minmax(0,1fr)}#song .song-dialogue-panel{padding:25px 20px}#song .song-dialogue-panel .dialogue-line{font-size:29px}}
+#visual .garment-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:46px 32px;margin-top:36px}
+#visual .garment-card{margin:0;min-width:0}
+#visual .garment-card img{display:block;width:100%;height:620px;object-fit:contain;background:#e1ded6}
+#visual .garment-card figcaption{padding-top:20px}
+#visual .garment-card h3{font-size:25px;line-height:1.2;margin:0 0 12px}
+#visual .garment-card p{font-size:14px;line-height:1.65;color:#6a5e55;max-width:48ch}
+#visual .garment-card a{display:inline-block;margin-top:14px;font-size:11px;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){#visual .garment-board{grid-template-columns:minmax(0,1fr);gap:36px}#visual .garment-card img{height:auto;max-height:650px}#song .song-dialogue-panel{padding:28px 24px}#song .song-dialogue-panel .dialogue-line{font-size:clamp(29px,7vw,46px)}}
+@media(max-width:380px){#song .song-dialogue-panel{padding:25px 20px}#song .song-dialogue-panel .dialogue-line{font-size:29px}}
