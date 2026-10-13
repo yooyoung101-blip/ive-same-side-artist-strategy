@@ -110,6 +110,78 @@
       "kind": "official_video_thumbnail",
       "bytes": 7238,
       "sha256": "9947f973be7ca5e6195ab92cdc0143205d664f79c9e9788a5ca7e4a09cb3c1bb"
+    },
+    {
+      "file": "assets/photos/maison-01.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/731632179_17869881606626101_6959320833359445734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzMDExMDY4NTE4NzY0NDAwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=J1Zt_RuqH5cQ7kNvwEdRKUt&_nc_oc=AdpLzliaAVBB-ltZq2yGlDJTjqe42GKS56KcJ36PNK_kz6P_1hMSq1j3mSV1957eTSc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQPYbAKhPV5yvtkOgconlre1uM59ld2MYs95GVSPZjXfjg&oe=6AD492F0",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / MEGA CONCERT 2026 / JIWOO",
+      "retrieved": "2026-10-14",
+      "bytes": 313604,
+      "sha256": "6809547b3da5e0ae2c0c3e10124fd3011330d71c93798b5475fc0dd612ab1908",
+      "original_sha256": "d81bf915c0bf1221084f73745025dfa8985ca0e670bae826e9a3a1cf150d9b4b",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+    },
+    {
+      "file": "assets/photos/maison-02.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/732571848_17869881609626101_1200677238416984656_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkzMDExMDY4NTA1MzQ0MzM2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-MLTa_wJUb0Q7kNvwEy4TH9&_nc_oc=Adq-lyQfRc2rLwji5RzOpNj__YxYg6puiMWYlAHdORzteDasyc2ekOHCYSKUiZymaq8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQMI61SgCp_fU19OvS9n-L9-utfurNTSMsrcRmAGvR_OMA&oe=6AD49C21",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/?img_index=2",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / MEGA CONCERT 2026 / YE-ON",
+      "retrieved": "2026-10-14",
+      "bytes": 375535,
+      "sha256": "76905e64e953d69b2077f8e6eaf741081b8b28ace6096aa8121288cbffe505ec",
+      "original_sha256": "709fd93395305a11f4d3f0a45c4947d24d7ef40a132fb978f3f4fb545643371d",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+    },
+    {
+      "file": "assets/photos/maison-03.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/729889297_17869881558626101_866781930718770506_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzMDExMDY4NDk3NzkxMDUwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Al6PE199cVEQ7kNvwEmaN24&_nc_oc=AdpZlUZ7Swq8Dq3Dz92TKuUX7erFhjUFKd61nBvMCy9deUQ9ujp8TjSlJ0aJCXo0R8Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=srDiuAfHKZVtHA-sIGC1nA&_nc_ss=7a22e&oh=00_AQOQnTCUbpq7FfRgloZJaJ67tpV8rtyLk94I8j5H5I9JZg&oe=6AD4767C",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DaKjt2EEwmG/?img_index=3",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / MEGA CONCERT 2026 / A-NA",
+      "retrieved": "2026-10-14",
+      "bytes": 321758,
+      "sha256": "e7404f7018a00205e7c10dc0259951d2303428348d8c1c41bf474b2d3eba56b3",
+      "original_sha256": "3a94d74656695652580e4d9c3648a5ed4301576c7e2283da2e25b2f418ac4704",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+    },
+    {
+      "file": "assets/photos/maison-04.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/707445632_17865413061626101_4068174109945072871_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNDc3OTA4MjQzNzcwMzI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rrL_vsRV7HgQ7kNvwHLL2LS&_nc_oc=Adpqx3dnzXcRM2kX9j5JAvHqJvv9x0Z12h_LhOrLjbMdoMpaxBG-3pBdm-KmahEg-zw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=bmStd372DWdfY9kao3dJ1g&_nc_ss=7a22e&oh=00_AQMc4D-s-m6un7utLgK_NNeLolm9oMR5qe8mgXzIJph34w&oe=6AD49B14",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj-ZVkwR2/",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / ASEA 2026 / collection",
+      "retrieved": "2026-10-14",
+      "bytes": 473767,
+      "sha256": "d4b1172c0a226521df51790ea6b47778a26602cf76520ae5b3c2025db511a1d4",
+      "original_sha256": "673b8a2c2f12286a8034b520422c6380eac9ccccdd53bb986ea6b79098643f8d",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+    },
+    {
+      "file": "assets/photos/maison-05.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/706102093_17865412884626101_5431650132310517353_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNDc3ODQ0Mzg5NjkwNzQ1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jCwRCibyRiQQ7kNvwG00gZU&_nc_oc=AdrtwcxaftNz66_ZMw2Lz1huHO-MUi0GYYA2AH--yKPRa0SFdYrZ25tvCPYvbWbeTYw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=f40OolrtJagkka5LuigPIg&_nc_ss=7a22e&oh=00_AQNFozNjlZRxs369sPrxEu4H14Ichkec5BcebRFsIKba_A&oe=6AD47948",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj1JAE214/",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / ASEA 2026 / A-NA",
+      "retrieved": "2026-10-14",
+      "bytes": 385972,
+      "sha256": "072eb425fa9f6cb0b3ccc5af9ad9693f5b78b12e161030217a126ae3ca825079",
+      "original_sha256": "5ceb6772e395472dcf9b119b7dcfc139b894397771582556a04e35332f8076c4",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
+    },
+    {
+      "file": "assets/photos/maison-06.jpg",
+      "source": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/707816124_17865412866626101_7351110363456070347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNDc3ODQ0Mzc3MTAzMDk2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5HwTg9lEm-YQ7kNvwFenTbz&_nc_oc=Adok9LllmDrO8bwFjxHW9mVMmca7lhpFn7fLBkEPT82P4uRxQwuwvKIDhgQIxVBOB7M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=f40OolrtJagkka5LuigPIg&_nc_ss=7a22e&oh=00_AQO7DmWNdev9tT4MIpczEoemgFYejo1Rj4H_GBtTm2Qbiw&oe=6AD49DB4",
+      "source_page": "https://www.instagram.com/maisondevynn/p/DYwj1JAE214/?img_index=2",
+      "credit": "Maison de VYNN; photographer marks retained in original board",
+      "label": "Hearts2Hearts / ASEA 2026 / STELLA",
+      "retrieved": "2026-10-14",
+      "bytes": 326572,
+      "sha256": "f2e6989036bcea13d9c176ccdb4217a36807fefee5c71f80c6f09a3a01019ffa",
+      "original_sha256": "e9ee492ae4bd0528e5aac9b86d53c4aa3991a004cc05b00b05d00e9d560233ba",
+      "processing": "Full original board, downsampled proportionally for web display; no crop or content changes"
     }
   ],
   "updated": "2026-10-14"

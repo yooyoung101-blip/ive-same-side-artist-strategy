@@ -51,5 +51,23 @@
   },
   "referencePinkPantheress": {
     "src": "assets/photos/reference-pinkpantheress.jpg"
+  },
+  "maison01": {
+    "src": "assets/photos/maison-01.jpg"
+  },
+  "maison02": {
+    "src": "assets/photos/maison-02.jpg"
+  },
+  "maison03": {
+    "src": "assets/photos/maison-03.jpg"
+  },
+  "maison04": {
+    "src": "assets/photos/maison-04.jpg"
+  },
+  "maison05": {
+    "src": "assets/photos/maison-05.jpg"
+  },
+  "maison06": {
+    "src": "assets/photos/maison-06.jpg"
   }
 }
