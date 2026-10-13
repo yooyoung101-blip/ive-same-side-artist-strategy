@@ -1,7 +1,7 @@
 /* Original, optional four-bar production sketch. No samples, vocals or network requests. */
 (() => {
   "use strict";
-  const scene = document.getElementById("music-lead");
+  const scene = document.querySelector("[data-music-preview]");
   const button = document.getElementById("ml-audition-button");
   const status = document.getElementById("ml-audio-state");
   const audition = scene?.querySelector(".ml-audition");
@@ -159,6 +159,7 @@
     if (active || pendingContext) stop();
     else start();
   });
+  scene.addEventListener("toggle", () => { if (!scene.open) stop(); });
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) stop();
   });

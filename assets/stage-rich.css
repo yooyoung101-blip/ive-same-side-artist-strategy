@@ -1,0 +1,132 @@
+/* Photo-led concept, complete stage looks, and genre-first music. */
+.hero-world { display:flex; flex-direction:column; justify-content:center; background:#271f22; padding:24px; }
+.hero-world img { display:block; position:relative; width:100%; height:auto; object-fit:contain; }
+.hero-world .hero-image-caption { position:relative; margin-top:20px; font-size:12px; line-height:1.6; color:#c3b7b8; }
+.hero-world .hero-image-caption strong { display:block; color:#e9e3d8; font-size:15px; margin-bottom:5px; }
+.hero-concept-tags { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 0; }
+.hero-concept-tags span { font-size:11px; padding:8px 10px; border:1px solid #78656b; }
+.photo-credit { font-size:11px; line-height:1.6; color:#8b8077; margin-top:14px; }
+.photo-credit a { text-decoration:underline; text-underline-offset:3px; }
+.feature-photo { margin:0; min-width:0; }
+.feature-photo img { display:block; width:100%; height:auto; }
+.sound-identity.genre-scene { grid-template-columns:1fr 1fr; align-items:center; gap:48px; background:#281f23; }
+.genre-scene .headline { font-size:clamp(62px,8vw,112px); }
+.genre-scene .genre-line { margin-top:26px; font-size:clamp(20px,2vw,28px); line-height:1.35; max-width:25ch; color:#e1c7ce; }
+.genre-scene .genre-summary { margin-top:20px; font-size:17px; line-height:1.6; color:#c1b4b6; max-width:38ch; }
+.genre-scene .genre-tags { display:flex; flex-wrap:wrap; gap:10px; margin:24px 0 28px; }
+.genre-tags span { padding:9px 13px; border:1px solid #896c76; font-size:11px; text-transform:uppercase; }
+.genre-scene .brief-link { display:inline-flex; margin:0; }
+.genre-scene .photo-credit { color:#c1b4b6; }
+.listening-scene { display:block; padding:72px clamp(20px,4vw,72px); background:#eee7dc; color:#111; }
+.listening-heading { display:flex; flex-wrap:wrap; align-items:end; justify-content:space-between; gap:24px; max-width:1400px; margin:0 auto 36px; }
+.listening-heading h2 { font-size:clamp(40px,5vw,70px); line-height:1; letter-spacing:-.04em; }
+.listening-heading p:last-child { max-width:38ch; font-size:16px; line-height:1.6; color:#6a5e55; }
+.listening-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:30px; max-width:1400px; margin:auto; }
+.listening-reference { min-width:0; }
+.listening-reference a { display:block; text-decoration:none; }
+.listening-reference img { width:100%; height:auto; display:block; aspect-ratio:4/3; object-fit:contain; background:#151414; }
+.listening-reference .reference-cue { margin-top:24px; color:#855c68; font-size:11px; font-weight:750; text-transform:uppercase; letter-spacing:.08em; }
+.listening-reference h3 { margin-top:10px; font-size:29px; line-height:1.15; letter-spacing:-.035em; }
+.listening-reference .reference-artist { margin-top:7px; font-size:14px; font-weight:750; }
+.listening-reference .reference-description { margin-top:15px; font-size:15px; line-height:1.6; color:#6a5e55; }
+.listening-reference .reference-link { display:block; margin-top:18px; font-size:12px; text-decoration:underline; text-underline-offset:5px; }
+.listening-bottom { max-width:1400px; margin:36px auto 0; border-top:1px solid #c6bdb1; padding-top:22px; display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; }
+.listening-bottom p { color:#75685c; font-size:12px; max-width:68ch; line-height:1.6; }
+.listening-bottom .brief-link { margin:0; }
+.visual-code.stage-wardrobe { display:block; }
+.stage-wardrobe .vc-layout { display:block; }
+.stage-wardrobe .vc-heading { display:grid; grid-template-columns:1.15fr 1fr; gap:20px 50px; padding:0 0 32px; border-bottom:1px solid #b4a799; }
+.stage-wardrobe .vc-heading .eyebrow { grid-column:1/-1; }
+.stage-wardrobe .vc-heading h2 { font-size:clamp(44px,5vw,70px); margin:0; }
+.stage-wardrobe .vc-intro { max-width:48ch; margin:0; align-self:end; font-size:17px; }
+.stage-wardrobe .vc-status { max-width:none; margin:0; grid-column:2; font-size:11px; }
+.style-moodboard { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; margin:32px 0; align-items:start; }
+.style-moodboard figure { margin:0; min-width:0; }
+.style-moodboard img { width:100%; height:auto; display:block; }
+.style-moodboard h3 { margin:16px 0 7px; font-size:19px; line-height:1.2; letter-spacing:-.03em; }
+.style-moodboard p { font-size:13px; line-height:1.6; color:#6a5e55; }
+.style-moodboard .mood-source { display:block; margin-top:12px; font-size:10px; text-decoration:underline; text-underline-offset:3px; color:#75665e; }
+.stage-palette { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; padding:24px 0; margin-bottom:36px; border-top:1px solid #b4a799; border-bottom:1px solid #b4a799; }
+.stage-palette span { display:flex; align-items:center; gap:12px; font-size:11px; font-weight:700; text-transform:uppercase; }
+.stage-palette i { display:block; flex:0 0 34px; width:34px; height:34px; border:1px solid #998d84; }
+.stage-wardrobe .look-heading { display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; align-items:center; margin:0 0 26px; }
+.look-heading h3 { font-size:28px; letter-spacing:-.025em; }
+.look-heading p { font-size:12px; color:#7a6a61; }
+.stage-wardrobe .vc-looks { gap:50px; }
+.stage-wardrobe .vc-flat-wrap { display:flex; flex-direction:column; align-items:center; background:#f3eee5; border-color:#b4a799; padding:24px 20px; }
+.stage-wardrobe .full-look { width:100%; height:auto; display:block; max-height:680px; }
+.stage-wardrobe .vc-look figcaption { padding-top:24px; }
+.stage-wardrobe .vc-artist { font-size:28px; }
+.stage-wardrobe .vc-look h3 { font-size:24px; line-height:1.2; }
+.stage-wardrobe .vc-look figcaption>p:last-child { font-size:15px; line-height:1.65; max-width:52ch; }
+.look-pieces { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; list-style:none; }
+.look-pieces li { padding:8px 10px; border:1px solid #baac9e; font-size:11px; }
+.stage-wardrobe .visual-key { margin-top:36px; border-color:#b4a799; }
+.visual-key-swatch.oxblood { background:#592331; }
+.stage-wardrobe .vc-finish { margin-top:30px; padding-top:24px; border-top:1px solid #b4a799; }
+.stage-photo { display:grid; grid-template-columns:1.2fr 1fr; gap:36px; align-items:center; margin:36px 0 0; }
+.stage-photo img { width:100%; height:auto; display:block; }
+.stage-photo h3 { font-size:32px; line-height:1.1; margin-bottom:18px; }
+.stage-photo p { font-size:15px; line-height:1.65; color:#b5afaa; }
+.stage-photo .photo-credit { font-size:11px; margin-top:20px; }
+.end.end-photo-finish { grid-template-columns:1fr 1fr; }
+.end-photo-finish .end-symbol { display:flex; align-items:center; justify-content:center; padding:28px; }
+.end-photo-finish .end-symbol img { width:100%; height:auto; display:block; }
+.md-audio-preview { margin:24px 0 36px; border:1px solid #c2b6a8; padding:18px 22px; background:#f2eade; }
+.md-audio-preview summary { font-size:14px; font-weight:750; cursor:pointer; }
+.md-audio-preview .ml-audition { display:flex; flex-wrap:wrap; align-items:center; gap:18px; margin:24px 0 15px; }
+.md-audio-preview .ml-audition[hidden] { display:none; }
+.md-audio-preview .ml-play { color:#e9e3d8; background:#281f23; border-color:#281f23; }
+.md-audio-preview .ml-audio-state { color:#76605f; }
+.md-audio-preview .ml-audio-note { color:#6f6056; font-size:12px; max-width:none; }
+@media(max-width:1000px) {
+ .style-moodboard { grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px; }
+ .stage-wardrobe .vc-looks { gap:28px; }
+}
+@media(max-width:720px) {
+ .hero-world { padding:18px; aspect-ratio:auto; }
+ .hero-world .hero-image-caption { font-size:11px; margin-top:15px; }
+ .sound-identity.genre-scene { grid-template-columns:1fr; gap:32px; }
+ .genre-scene .headline { font-size:clamp(56px,15vw,100px); }
+ .genre-scene .genre-line { font-size:23px; }
+ .genre-scene .genre-summary { font-size:16px; }
+ .listening-scene { padding:60px 20px; }
+ .listening-heading { display:block; }
+ .listening-heading p:last-child { margin-top:24px; font-size:15px; }
+ .listening-grid { grid-template-columns:1fr; gap:34px; }
+ .listening-reference h3 { font-size:29px; }
+ .listening-reference .reference-cue { margin-top:18px; }
+ .stage-wardrobe .vc-heading { grid-template-columns:1fr; gap:24px; }
+ .stage-wardrobe .vc-heading .eyebrow,.stage-wardrobe .vc-status { grid-column:1; }
+ .stage-wardrobe .vc-heading h2 { font-size:clamp(36px,10vw,58px); }
+ .stage-wardrobe .vc-intro { font-size:16px; }
+ .style-moodboard { gap:26px 16px; }
+ .style-moodboard h3 { font-size:18px; }
+ .style-moodboard p { font-size:12px; }
+ .stage-palette { grid-template-columns:repeat(2,1fr); gap:16px; }
+ .stage-palette i { width:28px; height:28px; flex-basis:28px; }
+ .stage-wardrobe .vc-looks { grid-template-columns:1fr; gap:38px; }
+ .stage-wardrobe .vc-flat-wrap { padding:20px; }
+ .stage-wardrobe .full-look { max-height:640px; }
+ .stage-wardrobe .vc-look h3 { font-size:25px; }
+ .stage-wardrobe .vc-artist span { margin-top:8px; }
+ .stage-wardrobe .vc-look figcaption>p:last-child { font-size:15px; }
+ .stage-photo { grid-template-columns:1fr; gap:26px; }
+ .stage-photo h3 { font-size:28px; }
+ .end.end-photo-finish { grid-template-columns:1fr; }
+ .end-photo-finish .end-symbol { padding:20px; min-height:0; }
+}
+@media(max-width:380px) {
+ .style-moodboard { grid-template-columns:1fr; }
+}
+.hero-world { margin:0; }
+.style-moodboard img { height:clamp(250px,30vw,400px); object-fit:contain; background:#dcd3c8; }
+.end-photo-finish .end-symbol { margin:0; flex-direction:column; }
+.demo-selection { border-top:1px solid #a29b94; }
+.demo-selection>div { padding:24px 0; border-bottom:1px solid #a29b94; }
+.demo-selection span { font-size:11px; font-weight:750; color:#725860; text-transform:uppercase; }
+.demo-selection h3 { margin:14px 0 12px; font-size:26px; line-height:1.15; letter-spacing:-.035em; }
+.demo-selection p { font-size:15px; line-height:1.6; color:#605750; max-width:44ch; }
+@media(max-width:720px) { .style-moodboard img { height:230px; } }
+@media(max-width:380px) { .style-moodboard img { height:auto; } }
+.stage-wardrobe .full-look { object-fit:contain; }

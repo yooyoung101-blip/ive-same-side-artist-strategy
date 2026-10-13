@@ -21,5 +21,35 @@
     "src": "assets/photos/spur-rei.webp",
     "position": "68% 14%",
     "mobilePosition": "84% 56%"
+  },
+  "heroWorld": {
+    "src": "assets/photos/bazaar-duo-lace-red.jpg"
+  },
+  "songTexture": {
+    "src": "assets/photos/bazaar-liz-texture.jpg"
+  },
+  "wardrobeContrast": {
+    "src": "assets/photos/valentino-full-look.jpg"
+  },
+  "wardrobeTailoring": {
+    "src": "assets/photos/spur-tailoring-boots.jpg"
+  },
+  "wardrobeMetal": {
+    "src": "assets/photos/wkorea-metal-bodice.jpg"
+  },
+  "wardrobeTexture": {
+    "src": "assets/photos/bazaar-rei-texture.jpg"
+  },
+  "stageLive": {
+    "src": "assets/photos/liz-live.jpg"
+  },
+  "referenceIVE": {
+    "src": "assets/photos/reference-ive.jpg"
+  },
+  "referenceAespa": {
+    "src": "assets/photos/reference-aespa.jpg"
+  },
+  "referencePinkPantheress": {
+    "src": "assets/photos/reference-pinkpantheress.jpg"
   }
 }

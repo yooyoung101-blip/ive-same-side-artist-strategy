@@ -30,6 +30,87 @@
       "source": "https://img-spur.hpplus.jp/article/parts/image/77/7713f726-cde5-4506-989b-60aa7f3124b7-1200x1535.jpg",
       "bytes": 48314,
       "sha256": "a09aa7bacf40e0f637742040ded53608fd7333aa42431858605fe915516f594e"
+    },
+    {
+      "file": "assets/photos/valentino-full-look.jpg",
+      "source": "https://prcdn.freetls.fastly.net/release_image/101366/257/101366-257-3277bcc31222977db347ced3669432be-2160x2700.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "source_page": "https://prtimes.jp/main/html/rd/p/000000257.000101366.html",
+      "kind": "editorial_reference",
+      "bytes": 148318,
+      "sha256": "c583201bbcc6a9c161261f794950468c8661e9c3008c1bdbe5ba461a9173545d"
+    },
+    {
+      "file": "assets/photos/bazaar-duo-lace-red.jpg",
+      "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/94a5a8e2-d404-416e-95e0-38d40b8c64ec.jpg",
+      "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
+      "kind": "editorial_reference",
+      "bytes": 133835,
+      "sha256": "08fdcebbcb3640a68433919cc33487cce89c9cb3ab686849c7d0074c4a3f14ba"
+    },
+    {
+      "file": "assets/photos/spur-tailoring-boots.jpg",
+      "source": "https://img-spur.hpplus.jp/article/parts/image/a3/a3ba0fcb-3940-49cb-b6b1-2eb5ff3e2705-1200x1550.jpg",
+      "source_page": "https://spur.hpplus.jp/culture/topics/2024-11-23-r-Vk2Q/",
+      "kind": "editorial_reference",
+      "bytes": 163170,
+      "sha256": "b881bc37de3fa9a1fd39af74c9aeff904b850ed087c6060807b24fb6e7d65614"
+    },
+    {
+      "file": "assets/photos/wkorea-metal-bodice.jpg",
+      "source": "https://www.wkorea.com//wp_data/w/2022/04/style_6264ee2fe48e3.jpg",
+      "source_page": "https://www.wkorea.com/2022/04/25/%EB%8D%94-%EB%B9%A0%EC%A0%B8-%EA%B9%8A%EC%9D%B4-%EC%95%84%EC%9D%B4%EB%B8%8C/",
+      "kind": "editorial_reference",
+      "bytes": 199760,
+      "sha256": "ddefc45bad156bf46fa50ff2b1016a1b15690100a45f877a7d4e1ff654fe74c2"
+    },
+    {
+      "file": "assets/photos/bazaar-liz-texture.jpg",
+      "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/70bee7df-5dee-40cd-a2aa-fd7112ccaadb.jpg",
+      "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
+      "kind": "editorial_reference",
+      "bytes": 111079,
+      "sha256": "74304762bf35b649681a22202c56875c29617897e3b18b71e03cf9ea6e696771"
+    },
+    {
+      "file": "assets/photos/bazaar-rei-texture.jpg",
+      "source": "https://www.harpersbazaar.co.kr/resources/online/online_image/2025/11/06/8d4820ef-9f85-4201-8ffd-c432687cebf5.jpg",
+      "source_page": "https://www.harpersbazaar.co.kr/article/1891046",
+      "kind": "editorial_reference",
+      "bytes": 103872,
+      "sha256": "10e0c2a061d7d9b6770a71158fa368b8bfdaeafcd3ef68bc4fdd749aeff1dedd"
+    },
+    {
+      "file": "assets/photos/liz-live.jpg",
+      "source": "https://image.starnewskorea.com/21/2025/11/2025110219162917859_1.jpg",
+      "source_page": "https://www.starnewskorea.com/pop-culture/2025/11/02/2025110219162917859",
+      "kind": "live_reference",
+      "bytes": 1288363,
+      "sha256": "0e3e54117c5de36e1f097b5fec6034769909db2246d9890f4d35bf37afab5188"
+    },
+    {
+      "file": "assets/photos/reference-ive.jpg",
+      "source": "https://i.ytimg.com/vi/_ApV7Lm87cg/hqdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=_ApV7Lm87cg",
+      "kind": "official_video_thumbnail",
+      "bytes": 22149,
+      "sha256": "75db65460e347047703adb0ccec89461fe6be803f2ad140fca160aecbf9fbda7"
+    },
+    {
+      "file": "assets/photos/reference-aespa.jpg",
+      "source": "https://i.ytimg.com/vi/i0RCcSBPjuU/hqdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=i0RCcSBPjuU",
+      "kind": "official_video_thumbnail",
+      "bytes": 33745,
+      "sha256": "4778d003a201b608c52b3a2c498a1551b3289377a3e8a56e69ca30994aa66a55"
+    },
+    {
+      "file": "assets/photos/reference-pinkpantheress.jpg",
+      "source": "https://i.ytimg.com/vi/REzdbqfiN9o/hqdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=REzdbqfiN9o",
+      "kind": "official_video_thumbnail",
+      "bytes": 7238,
+      "sha256": "9947f973be7ca5e6195ab92cdc0143205d664f79c9e9788a5ca7e4a09cb3c1bb"
     }
-  ]
+  ],
+  "updated": "2026-10-14"
 }

@@ -4,8 +4,8 @@ Independent artist strategy portfolio by YOOYOUNG.
 
 LIZ x REI original unit IP proposal.
 
-A buildless static site: 12 scenes and a full production brief in English, covering the artist strategy, music direction, wardrobe construction and pilot criteria. Scene 03 presents full-length portraits with a separate heading and captions. All five source photographs appear once each on the main page and are bundled locally; image-sources.json records original image URLs and checksums. Garment flats and stage blocking are original proposal diagrams. The optional four-bar Web Audio sketch is synthesized locally and contains no artist recordings or vocals.
+A buildless static site: 12 scenes and a full production brief in English, covering the artist strategy, music direction, wardrobe construction and pilot criteria. Scene 03 presents full-length portraits with a separate heading and captions. Twelve real photographs and three official-video thumbnails appear once each on the main page and are bundled locally; image-sources.json records original image URLs and checksums. The two full stage-look illustrations and stage blocking are original proposals. Main music sections show genre and linked listening references; detailed production notes and an optional synthesized four-bar Web Audio sketch live in briefs.html. The sketch contains no artist recordings or vocals.
 
-Sources reviewed 12 October 2026. The proposed pilot respects the announced group EP Looks Can Kill and requires a separately approved rehearsal window.
+Sources reviewed 14 October 2026. The proposed pilot respects the announced group EP Looks Can Kill and requires a separately approved rehearsal window.
 
 This is a proposed project, not an announced artist release or an approved brand collaboration.
